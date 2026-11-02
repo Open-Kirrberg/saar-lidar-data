@@ -1,0 +1,2220 @@
+{
+ "format": "sle-recon-v1",
+ "id": "karlsberg1789",
+ "label_de": "Rekonstruktion 1789 (Hypothese)",
+ "name_de": "Schloss Karlsberg – Rekonstruktion Sommer 1789",
+ "crs": "EPSG:25832",
+ "heightDatum": "DHHN2016",
+ "origin": {
+  "E0": 381000,
+  "N0": 5465000
+ },
+ "anchor": {
+  "E": 382262.7,
+  "N": 5466126.3,
+  "enterRadius_m": 300
+ },
+ "bboxEN": [
+  [
+   381255.3,
+   5464622
+  ],
+  [
+   383159.4,
+   5467054.1
+  ]
+ ],
+ "files": {
+  "model": "buildings.glb",
+  "footprints": "footprints.geojson"
+ },
+ "viewer": {
+  "url": "http://localhost:5260/"
+ },
+ "attribution": "Rekonstruktion Schloss Karlsberg 1789 (Hypothese): Teilprojekt schloss-karlsberg, Katalog v2 (research/01-08); Grundrisse teils nach Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE); Sockeltiefen: DGM1 GeoBasis-DE/LVGL-SL (2026), dl-de/by-2-0",
+ "disclaimer_de": "Hypothetische Rekonstruktion, kein Befund. Schauen, nicht graben.",
+ "generated": "2026-11-01T18:20:16.084Z",
+ "catalogueVersion": 2,
+ "buildings": [
+  {
+   "id": "KB-B01",
+   "name_de": "Corps de logis (Hauptpalais; Kern = Louisenhof-Herrenhaus 1760/61)",
+   "cls": "CDL",
+   "confidence": "med",
+   "eaves_h": 356,
+   "ridge_h": 362.72,
+   "bbox_local": [
+    [
+     1248.65,
+     343.52,
+     -1148.98
+    ],
+    [
+     1275.96,
+     369.02,
+     -1103.59
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/03",
+    "Web: nhp-2000.de",
+    "Web: en.wikipedia.org"
+   ]
+  },
+  {
+   "id": "KB-B02",
+   "name_de": "Südflügel – Flügel der Herzogin",
+   "cls": "WING2",
+   "confidence": "high",
+   "eaves_h": 356,
+   "ridge_h": 363.83,
+   "bbox_local": [
+    [
+     1186.29,
+     339.77,
+     -1107.11
+    ],
+    [
+     1271.32,
+     365.23,
+     -1076.58
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/03",
+    "Recherche research/01",
+    "HMS/Matzerath 2022 (nur Maße, ©)"
+   ]
+  },
+  {
+   "id": "KB-B03",
+   "name_de": "Nordflügel – Flügel des Herzogs",
+   "cls": "WING2",
+   "confidence": "high",
+   "eaves_h": 356,
+   "ridge_h": 363.89,
+   "bbox_local": [
+    [
+     1185.17,
+     343.22,
+     -1167.17
+    ],
+    [
+     1261.76,
+     366.59,
+     -1134.03
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/03",
+    "Recherche research/01",
+    "HMS/Matzerath 2022 (nur Maße, ©)"
+   ]
+  },
+  {
+   "id": "KB-B04",
+   "name_de": "Westflügel / Sammlungsflügel (Bibliothek, Naturalienkabinett, Waffensammlung)",
+   "cls": "WING2",
+   "confidence": "med",
+   "eaves_h": 356,
+   "ridge_h": 362.76,
+   "bbox_local": [
+    [
+     1175.69,
+     343.44,
+     -1213.9
+    ],
+    [
+     1199.38,
+     365.46,
+     -1153.75
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/03",
+    "Schwan, Burgen und Schloesser 4/2012 (snippet only)",
+    "HMS/Matzerath 2022 (nur Maße, ©)"
+   ]
+  },
+  {
+   "id": "KB-B05",
+   "name_de": "Ostflügel / Küchenbau (Küchenflügel)",
+   "cls": "WING2",
+   "confidence": "med",
+   "eaves_h": 356,
+   "ridge_h": 362.79,
+   "bbox_local": [
+    [
+     1231.55,
+     343.93,
+     -1211.6
+    ],
+    [
+     1253.42,
+     365.49,
+     -1162.79
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/03",
+    "HMS/Matzerath 2022 (nur Maße, ©)",
+    "Recherche research/01"
+   ]
+  },
+  {
+   "id": "KB-B06",
+   "name_de": "Galerieflügel (Bildergalerie)",
+   "cls": "RANGE1",
+   "confidence": "low",
+   "eaves_h": 354.8,
+   "ridge_h": 357.11,
+   "bbox_local": [
+    [
+     1188.03,
+     343.92,
+     -1231.35
+    ],
+    [
+     1272.16,
+     357.11,
+     -1208.74
+    ]
+   ],
+   "sources_de": [
+    "Schwan, Burgen und Schloesser 4/2012 (snippet only)",
+    "HMS/Matzerath 2022 (nur Maße, ©)",
+    "Recherche research/01"
+   ]
+  },
+  {
+   "id": "KB-B07",
+   "name_de": "Pavillon am Ostende der Galerie",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 355.4,
+   "ridge_h": 359.6,
+   "bbox_local": [
+    [
+     1269.63,
+     347.3,
+     -1234.81
+    ],
+    [
+     1282.18,
+     359.6,
+     -1220.62
+    ]
+   ],
+   "sources_de": [
+    "HMS/Matzerath 2022 (nur Maße, ©)",
+    "Recherche research/01",
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B10",
+   "name_de": "Orangerie, Hauptflügel (aus der Schweizerei 1780)",
+   "cls": "ORANG",
+   "confidence": "med",
+   "eaves_h": 352,
+   "ridge_h": 357.75,
+   "bbox_local": [
+    [
+     1227.69,
+     334.9,
+     -1009.53
+    ],
+    [
+     1256.08,
+     362.65,
+     -924.6
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/03",
+    "Web: schloss-karlsberg.de",
+    "Recherche research/01"
+   ]
+  },
+  {
+   "id": "KB-B11",
+   "name_de": "Orangerie, Nordflügel (Komödienhaus/Theatersaal 1783?)",
+   "cls": "ORANG",
+   "confidence": "low",
+   "eaves_h": 348.4,
+   "ridge_h": 353.43,
+   "bbox_local": [
+    [
+     1237.47,
+     334.95,
+     -1017.97
+    ],
+    [
+     1278.85,
+     353.43,
+     -997.22
+    ]
+   ],
+   "sources_de": [
+    "Web: schloss-karlsberg.de",
+    "Recherche research/01",
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B12",
+   "name_de": "Orangerie, Südflügel",
+   "cls": "ORANG",
+   "confidence": "low",
+   "eaves_h": 348.4,
+   "ridge_h": 353.43,
+   "bbox_local": [
+    [
+     1252.8,
+     334.95,
+     -951.62
+    ],
+    [
+     1313.23,
+     353.43,
+     -926.69
+    ]
+   ],
+   "sources_de": [
+    "Web: schloss-karlsberg.de",
+    "Recherche research/03",
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B13",
+   "name_de": "Rotunde / Rundbau an der Orangerie (1785)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 350.3,
+   "ridge_h": 358.7,
+   "bbox_local": [
+    [
+     1248.73,
+     338.05,
+     -986.28
+    ],
+    [
+     1277.27,
+     358.7,
+     -957.72
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/01",
+    "Recherche research/03",
+    "Fuerstenwaerther 1786 (dilibri, PD)"
+   ]
+  },
+  {
+   "id": "KB-B20",
+   "name_de": "Marstall, Westbau",
+   "cls": "STABLE",
+   "confidence": "med",
+   "eaves_h": 350.1,
+   "ridge_h": 355.32,
+   "bbox_local": [
+    [
+     1181.96,
+     342.87,
+     -1545.42
+    ],
+    [
+     1198.04,
+     355.32,
+     -1379.58
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/01",
+    "HMS/Matzerath 2022 (nur Maße, ©)",
+    "Recherche research/02"
+   ]
+  },
+  {
+   "id": "KB-B21",
+   "name_de": "Marstall, Ostbau (Nordteil)",
+   "cls": "STABLE",
+   "confidence": "low",
+   "eaves_h": 350.1,
+   "ridge_h": 355.32,
+   "bbox_local": [
+    [
+     1235,
+     342.95,
+     -1544.43
+    ],
+    [
+     1249,
+     355.32,
+     -1477.57
+    ]
+   ],
+   "sources_de": [
+    "HMS/Matzerath 2022 (nur Maße, ©)",
+    "Recherche research/02",
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B22",
+   "name_de": "Reithalle (Reithaus)",
+   "cls": "RIDE",
+   "confidence": "low",
+   "eaves_h": 354.1,
+   "ridge_h": 361.91,
+   "bbox_local": [
+    [
+     1234.03,
+     343.27,
+     -1476.61
+    ],
+    [
+     1255.97,
+     361.91,
+     -1421.39
+    ]
+   ],
+   "sources_de": [
+    "HMS/Matzerath 2022 (nur Maße, ©)",
+    "Recherche research/02",
+    "Spanish Riding School 55 x 18 m (upper bound)"
+   ]
+  },
+  {
+   "id": "KB-B23",
+   "name_de": "Zwinger (Hundezwinger?)",
+   "cls": "GARD",
+   "confidence": "low",
+   "eaves_h": 346.49,
+   "ridge_h": 346.49,
+   "bbox_local": [
+    [
+     1182.48,
+     342.55,
+     -1594.55
+    ],
+    [
+     1250.52,
+     346.79,
+     -1548.05
+    ]
+   ],
+   "sources_de": [
+    "HMS/Matzerath 2022 (nur Maße, ©)",
+    "Recherche research/01",
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B24",
+   "name_de": "Jägerhaus, später Kaserne der Jäger und Scharfschützen",
+   "cls": "WING2",
+   "confidence": "low",
+   "eaves_h": 351.5,
+   "ridge_h": 358.5,
+   "bbox_local": [
+    [
+     1182.69,
+     342.7,
+     -1661.34
+    ],
+    [
+     1198.61,
+     358.5,
+     -1593.96
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/03",
+    "Recherche research/01",
+    "HMS/Matzerath 2022 (nur Maße, ©)"
+   ]
+  },
+  {
+   "id": "KB-B25",
+   "name_de": "Lazarett",
+   "cls": "WING2",
+   "confidence": "low",
+   "eaves_h": 351.58,
+   "ridge_h": 357.67,
+   "bbox_local": [
+    [
+     1211.08,
+     343.1,
+     -1805.91
+    ],
+    [
+     1244.62,
+     357.67,
+     -1793.69
+    ]
+   ],
+   "sources_de": [
+    "HMS/Matzerath 2022 (nur Maße, ©)",
+    "Recherche research/01",
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B26",
+   "name_de": "Brauerei und Wirtshaus",
+   "cls": "WING2",
+   "confidence": "low",
+   "eaves_h": 350.24,
+   "ridge_h": 356.33,
+   "bbox_local": [
+    [
+     1234.92,
+     340.45,
+     -1782.93
+    ],
+    [
+     1267.28,
+     356.33,
+     -1772.27
+    ]
+   ],
+   "sources_de": [
+    "HMS/Matzerath 2022 (nur Maße, ©)",
+    "Recherche research/01",
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B27",
+   "name_de": "Holländische Gärtnerei (Hofgärtnerei): ummauerter Garten mit Treibhäusern",
+   "cls": "GARD",
+   "confidence": "low",
+   "eaves_h": 350.1,
+   "ridge_h": 350.1,
+   "bbox_local": [
+    [
+     1178.95,
+     343.33,
+     -1366.05
+    ],
+    [
+     1263.05,
+     350.4,
+     -1225.95
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/03",
+    "HMS/Matzerath 2022 (nur Maße, ©)",
+    "Recherche research/01"
+   ]
+  },
+  {
+   "id": "KB-B28",
+   "name_de": "Eiskeller",
+   "cls": "GARD",
+   "confidence": "high",
+   "eaves_h": 356.5,
+   "ridge_h": 356.5,
+   "bbox_local": [
+    [
+     1502.95,
+     353.53,
+     -1301.05
+    ],
+    [
+     1513.05,
+     356.8,
+     -1290.95
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/03",
+    "Recherche research/01"
+   ]
+  },
+  {
+   "id": "KB-B29",
+   "name_de": "Baumagazin (heute Karlsberger Hof)",
+   "cls": "FARM",
+   "confidence": "med",
+   "eaves_h": 263.5,
+   "ridge_h": 269.61,
+   "bbox_local": [
+    [
+     492.49,
+     255.59,
+     -869.91
+    ],
+    [
+     530.3,
+     269.61,
+     -784.71
+    ]
+   ],
+   "sources_de": [
+    "Web: de.wikipedia.org",
+    "Web: schloss-karlsberg.de",
+    "LoD2 SL tile LoD2_32_381_5465 (data/raw/lod2), dl-de/by-2-0"
+   ]
+  },
+  {
+   "id": "KB-B30",
+   "name_de": "Carlsberger Hof (Meierei), Hauptbau",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 264.59,
+   "ridge_h": 275.77,
+   "bbox_local": [
+    [
+     490.86,
+     255.35,
+     -994.21
+    ],
+    [
+     513.25,
+     275.77,
+     -931.46
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/03",
+    "Recherche research/01",
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B30b",
+   "name_de": "Carlsberger Hof (Meierei), Wirtschaftsflügel 1",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 264.22,
+   "ridge_h": 271.92,
+   "bbox_local": [
+    [
+     525.39,
+     257.9,
+     -1003.96
+    ],
+    [
+     541.65,
+     271.92,
+     -947.2
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B30c",
+   "name_de": "Carlsberger Hof (Meierei), Wirtschaftsflügel 2",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 261.17,
+   "ridge_h": 272.78,
+   "bbox_local": [
+    [
+     492.89,
+     254.76,
+     -1037.2
+    ],
+    [
+     515.01,
+     272.78,
+     -1000.4
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B30d",
+   "name_de": "Carlsberger Hof (Meierei), Wirtschaftsflügel 3",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 263.87,
+   "ridge_h": 270.86,
+   "bbox_local": [
+    [
+     527.8,
+     255.82,
+     -1036.59
+    ],
+    [
+     541.4,
+     270.86,
+     -1005.17
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B31",
+   "name_de": "Marstall, Ostbau (Südteil)",
+   "cls": "STABLE",
+   "confidence": "low",
+   "eaves_h": 350.1,
+   "ridge_h": 355.46,
+   "bbox_local": [
+    [
+     1233.7,
+     343.15,
+     -1421.43
+    ],
+    [
+     1247.3,
+     355.46,
+     -1373.57
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B32",
+   "name_de": "Marstall, Nordflügel",
+   "cls": "STABLE",
+   "confidence": "low",
+   "eaves_h": 350.1,
+   "ridge_h": 355.46,
+   "bbox_local": [
+    [
+     1197.17,
+     343.16,
+     -1545.72
+    ],
+    [
+     1237.03,
+     355.46,
+     -1532.28
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B33",
+   "name_de": "Marstall, Querbau (Mitte)",
+   "cls": "STABLE",
+   "confidence": "low",
+   "eaves_h": 350.1,
+   "ridge_h": 355.01,
+   "bbox_local": [
+    [
+     1196.25,
+     343.13,
+     -1500.22
+    ],
+    [
+     1236.05,
+     355.01,
+     -1487.78
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B34",
+   "name_de": "Marstall, Querbau (Süd)",
+   "cls": "STABLE",
+   "confidence": "low",
+   "eaves_h": 350.1,
+   "ridge_h": 355.01,
+   "bbox_local": [
+    [
+     1194.38,
+     343.22,
+     -1411.23
+    ],
+    [
+     1235.02,
+     355.01,
+     -1398.77
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B35",
+   "name_de": "Zwingerhaus",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 347.79,
+   "ridge_h": 351.36,
+   "bbox_local": [
+    [
+     1209.56,
+     343.18,
+     -1579.44
+    ],
+    [
+     1223.74,
+     351.36,
+     -1570.97
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B36",
+   "name_de": "Brauerei und Wirtshaus, Westflügel",
+   "cls": "WING2",
+   "confidence": "low",
+   "eaves_h": 350.67,
+   "ridge_h": 355.17,
+   "bbox_local": [
+    [
+     1234.54,
+     342.34,
+     -1773.7
+    ],
+    [
+     1245.06,
+     355.17,
+     -1758
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B37",
+   "name_de": "Wachhaus Süd (an der Ehrenhofmündung)",
+   "cls": "PAV",
+   "confidence": "med",
+   "eaves_h": 346.04,
+   "ridge_h": 349.74,
+   "bbox_local": [
+    [
+     1170.68,
+     340.98,
+     -1106.82
+    ],
+    [
+     1180.92,
+     349.74,
+     -1095.28
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Le Clerc 1790, Ansicht (gemeinfrei)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B38",
+   "name_de": "Wachhaus Nord (an der Ehrenhofmündung)",
+   "cls": "PAV",
+   "confidence": "med",
+   "eaves_h": 346.47,
+   "ridge_h": 350.13,
+   "bbox_local": [
+    [
+     1166.18,
+     341.12,
+     -1128.51
+    ],
+    [
+     1176.32,
+     350.13,
+     -1116.89
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Le Clerc 1790, Ansicht (gemeinfrei)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B39",
+   "name_de": "Ehrenhofgitter mit Tor",
+   "cls": "WALL",
+   "confidence": "med",
+   "eaves_h": 348.4,
+   "ridge_h": 348.4,
+   "bbox_local": [
+    [
+     1188.67,
+     341.76,
+     -1134.83
+    ],
+    [
+     1196.22,
+     349.65,
+     -1094.25
+    ]
+   ],
+   "sources_de": [
+    "Le Clerc 1790, Ansicht (gemeinfrei)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B40",
+   "name_de": "Waffenschmiede",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 352.16,
+   "ridge_h": 357.23,
+   "bbox_local": [
+    [
+     1183,
+     343.63,
+     -1235.85
+    ],
+    [
+     1195.46,
+     357.23,
+     -1217.63
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B41",
+   "name_de": "Taubenhaus mit Wohnungen",
+   "cls": "RANGE1",
+   "confidence": "low",
+   "eaves_h": 348.36,
+   "ridge_h": 353.49,
+   "bbox_local": [
+    [
+     1250.88,
+     339.98,
+     -904.16
+    ],
+    [
+     1272.12,
+     353.49,
+     -845.64
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B42",
+   "name_de": "Chevau-leger-Kaserne",
+   "cls": "WING2",
+   "confidence": "low",
+   "eaves_h": 344.76,
+   "ridge_h": 352.08,
+   "bbox_local": [
+    [
+     1233.16,
+     333.57,
+     -782.15
+    ],
+    [
+     1253.44,
+     352.08,
+     -721.45
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B43",
+   "name_de": "Remisen",
+   "cls": "RANGE1",
+   "confidence": "low",
+   "eaves_h": 347.49,
+   "ridge_h": 354.38,
+   "bbox_local": [
+    [
+     1269.24,
+     342.02,
+     -1545.47
+    ],
+    [
+     1283.56,
+     354.38,
+     -1484.23
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B44",
+   "name_de": "Torfschuppen (Süd)",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 343.67,
+   "ridge_h": 349.31,
+   "bbox_local": [
+    [
+     1269.76,
+     336.98,
+     -1603.94
+    ],
+    [
+     1282.54,
+     349.31,
+     -1583.1
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B45",
+   "name_de": "Torfschuppen (Mitte)",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 341.76,
+   "ridge_h": 347.39,
+   "bbox_local": [
+    [
+     1270.86,
+     335.82,
+     -1633.39
+    ],
+    [
+     1283.04,
+     347.39,
+     -1618.86
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B46",
+   "name_de": "Torfschuppen (Nord)",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 340.78,
+   "ridge_h": 346.41,
+   "bbox_local": [
+    [
+     1271.26,
+     334.81,
+     -1656.39
+    ],
+    [
+     1283.44,
+     346.41,
+     -1641.86
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B47",
+   "name_de": "Jägerhof (Südflügel)",
+   "cls": "FARM_GROUP",
+   "confidence": "low",
+   "eaves_h": 349.92,
+   "ridge_h": 349.92,
+   "bbox_local": [
+    [
+     1231.1,
+     341.62,
+     -1672.2
+    ],
+    [
+     1251,
+     349.92,
+     -1657.7
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B48",
+   "name_de": "Jägerhof (Nordflügel)",
+   "cls": "FARM_GROUP",
+   "confidence": "low",
+   "eaves_h": 349.32,
+   "ridge_h": 349.32,
+   "bbox_local": [
+    [
+     1231.6,
+     339.5,
+     -1689
+    ],
+    [
+     1252,
+     349.32,
+     -1674.5
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B49",
+   "name_de": "Cavaliershaus",
+   "cls": "WING2",
+   "confidence": "low",
+   "eaves_h": 351.42,
+   "ridge_h": 357.47,
+   "bbox_local": [
+    [
+     1184.09,
+     342.13,
+     -1769.82
+    ],
+    [
+     1198.81,
+     357.47,
+     -1687.08
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B50",
+   "name_de": "Kaserne mit Exerzierplatz (Südteil)",
+   "cls": "FARM_GROUP",
+   "confidence": "low",
+   "eaves_h": 350.43,
+   "ridge_h": 350.43,
+   "bbox_local": [
+    [
+     1201.7,
+     339.01,
+     -1727.6
+    ],
+    [
+     1245.5,
+     350.43,
+     -1688
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B51",
+   "name_de": "Kaserne mit Exerzierplatz (Nordteil)",
+   "cls": "FARM_GROUP",
+   "confidence": "low",
+   "eaves_h": 350.98,
+   "ridge_h": 350.98,
+   "bbox_local": [
+    [
+     1203,
+     340.59,
+     -1755.5
+    ],
+    [
+     1235.6,
+     350.98,
+     -1721.3
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B52",
+   "name_de": "Kaserne gegenüber dem Lazarett (West)",
+   "cls": "WING2",
+   "confidence": "low",
+   "eaves_h": 350.89,
+   "ridge_h": 356.65,
+   "bbox_local": [
+    [
+     1249.61,
+     340.86,
+     -1814.62
+    ],
+    [
+     1276.49,
+     356.65,
+     -1801.08
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B53",
+   "name_de": "Kaserne gegenüber dem Lazarett (Ost)",
+   "cls": "WING2",
+   "confidence": "low",
+   "eaves_h": 348.13,
+   "ridge_h": 353.88,
+   "bbox_local": [
+    [
+     1279.4,
+     338.62,
+     -1813.7
+    ],
+    [
+     1302.6,
+     353.88,
+     -1801
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B54",
+   "name_de": "Treibhaus in der Holländischen Gärtnerei (Ost)",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 351.56,
+   "ridge_h": 354.32,
+   "bbox_local": [
+    [
+     1230.48,
+     347.11,
+     -1338.12
+    ],
+    [
+     1244.02,
+     354.32,
+     -1323.98
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B55",
+   "name_de": "Treibhaus in der Holländischen Gärtnerei (Mitte)",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 351.24,
+   "ridge_h": 353.44,
+   "bbox_local": [
+    [
+     1203.46,
+     346.89,
+     -1330.93
+    ],
+    [
+     1212.86,
+     353.44,
+     -1319.26
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B56",
+   "name_de": "Treibhaus in der Holländischen Gärtnerei (West)",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 351.18,
+   "ridge_h": 354.14,
+   "bbox_local": [
+    [
+     1179.66,
+     345.94,
+     -1326.54
+    ],
+    [
+     1192.92,
+     354.14,
+     -1314.37
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B57a",
+   "name_de": "Schäferei (LP06 25, Bau 1)",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 319.81,
+   "ridge_h": 326.51,
+   "bbox_local": [
+    [
+     1508.84,
+     313.25,
+     -1925.56
+    ],
+    [
+     1551.77,
+     326.51,
+     -1906.02
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B57b",
+   "name_de": "Schäferei (LP06 25, Bau 2)",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 321.08,
+   "ridge_h": 327.73,
+   "bbox_local": [
+    [
+     1505.44,
+     314.29,
+     -1906.46
+    ],
+    [
+     1548.76,
+     327.73,
+     -1886.94
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B57c",
+   "name_de": "Schäferei (LP06 25, Bau 3)",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 321.78,
+   "ridge_h": 328.48,
+   "bbox_local": [
+    [
+     1502.63,
+     314.84,
+     -1888.86
+    ],
+    [
+     1545.76,
+     328.48,
+     -1869.24
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B60a",
+   "name_de": "Schäferei (LP06 26, Bau 1)",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 315.12,
+   "ridge_h": 322.91,
+   "bbox_local": [
+    [
+     1578.98,
+     307.5,
+     -2046.47
+    ],
+    [
+     1601.42,
+     322.91,
+     -2030.58
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B60b",
+   "name_de": "Schäferei (LP06 26, Bau 2)",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 317.93,
+   "ridge_h": 323.59,
+   "bbox_local": [
+    [
+     1527.52,
+     309.12,
+     -2054.08
+    ],
+    [
+     1545.18,
+     323.59,
+     -2040.22
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B62",
+   "name_de": "Landwirtschaftlich genutztes Gebäude (LP06 27)",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 313.47,
+   "ridge_h": 324.14,
+   "bbox_local": [
+    [
+     1420.91,
+     306.19,
+     -2049.36
+    ],
+    [
+     1479.19,
+     324.14,
+     -2021.04
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B63",
+   "name_de": "Wachhaus am Taleingang (Nord)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 261.55,
+   "ridge_h": 265.08,
+   "bbox_local": [
+    [
+     492.09,
+     256.65,
+     -919.11
+    ],
+    [
+     501.61,
+     265.08,
+     -908.26
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B64",
+   "name_de": "Wachhaus am Taleingang (Süd)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 262.05,
+   "ridge_h": 264.99,
+   "bbox_local": [
+    [
+     493.69,
+     256.95,
+     -889.75
+    ],
+    [
+     501.71,
+     264.99,
+     -880.38
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B65",
+   "name_de": "Scheune",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 260.41,
+   "ridge_h": 268.47,
+   "bbox_local": [
+    [
+     492.79,
+     254.29,
+     -1092.42
+    ],
+    [
+     520.81,
+     268.47,
+     -1048.68
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B66",
+   "name_de": "Kelterei",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 264.39,
+   "ridge_h": 270.39,
+   "bbox_local": [
+    [
+     505.11,
+     256.85,
+     -1109.49
+    ],
+    [
+     521.89,
+     270.39,
+     -1094.51
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B67",
+   "name_de": "Pastorshäuschen",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 278.27,
+   "ridge_h": 282.94,
+   "bbox_local": [
+    [
+     589.18,
+     272.39,
+     -1118.45
+    ],
+    [
+     598.92,
+     282.94,
+     -1107.35
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B68",
+   "name_de": "Carlsdorf (Sanddorf), Haus 1",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 265.81,
+   "ridge_h": 271.26,
+   "bbox_local": [
+    [
+     518.38,
+     260.13,
+     -1431.92
+    ],
+    [
+     530.02,
+     271.26,
+     -1411.07
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B69",
+   "name_de": "Carlsdorf (Sanddorf), Haus 2",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 267.01,
+   "ridge_h": 271.69,
+   "bbox_local": [
+    [
+     508.47,
+     261.26,
+     -1488.62
+    ],
+    [
+     518.33,
+     271.69,
+     -1474.77
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B70",
+   "name_de": "Carlsdorf (Sanddorf), Haus 3",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 267.62,
+   "ridge_h": 272.29,
+   "bbox_local": [
+    [
+     504.58,
+     261.68,
+     -1509.32
+    ],
+    [
+     514.42,
+     272.29,
+     -1495.58
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B71",
+   "name_de": "Carlsdorf (Sanddorf), Haus 4",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 267.5,
+   "ridge_h": 272.11,
+   "bbox_local": [
+    [
+     478.68,
+     261.85,
+     -1524.82
+    ],
+    [
+     488.62,
+     272.11,
+     -1508.15
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B72",
+   "name_de": "Carlsdorf (Sanddorf), Haus 5",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 266.62,
+   "ridge_h": 272.01,
+   "bbox_local": [
+    [
+     473.28,
+     259.63,
+     -1548.33
+    ],
+    [
+     484.62,
+     272.01,
+     -1531.67
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B73",
+   "name_de": "Neue Schäferei, Bau 1",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 256.66,
+   "ridge_h": 261.54,
+   "bbox_local": [
+    [
+     290.73,
+     251.08,
+     -1302.57
+    ],
+    [
+     305.69,
+     261.54,
+     -1287.74
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B74",
+   "name_de": "Neue Schäferei, Bau 2",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 256.54,
+   "ridge_h": 263.58,
+   "bbox_local": [
+    [
+     268.83,
+     250.89,
+     -1323.9
+    ],
+    [
+     293.72,
+     263.58,
+     -1299.64
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B75",
+   "name_de": "Neue Schäferei, Bau 3",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 256.37,
+   "ridge_h": 261.76,
+   "bbox_local": [
+    [
+     255.33,
+     250.37,
+     -1339.17
+    ],
+    [
+     272.37,
+     261.76,
+     -1322.33
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B76",
+   "name_de": "Gärtnerei (LP06 34)",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 289.76,
+   "ridge_h": 295.15,
+   "bbox_local": [
+    [
+     688.68,
+     283.64,
+     -897.62
+    ],
+    [
+     705.42,
+     295.15,
+     -886.28
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B77",
+   "name_de": "Gärtnerei Reichard mit Kegelbahn",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 353.61,
+   "ridge_h": 361.29,
+   "bbox_local": [
+    [
+     1454.68,
+     347.92,
+     -1061.95
+    ],
+    [
+     1501.42,
+     361.29,
+     -1041.05
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B78",
+   "name_de": "Gärtnerei (LP06 47)",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 355.04,
+   "ridge_h": 360.09,
+   "bbox_local": [
+    [
+     1597.35,
+     349.32,
+     -957.7
+    ],
+    [
+     1613.06,
+     360.09,
+     -913.85
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B79",
+   "name_de": "Brunnenhaus (LP06 33)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 295.52,
+   "ridge_h": 301.41,
+   "bbox_local": [
+    [
+     813.48,
+     288.93,
+     -1106.86
+    ],
+    [
+     834.52,
+     301.41,
+     -1088.38
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B80",
+   "name_de": "Hirschwürzloch (Brunnenhaus / Hirschbrunnen)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 313.39,
+   "ridge_h": 318.54,
+   "bbox_local": [
+    [
+     1710.06,
+     305.46,
+     -1038.57
+    ],
+    [
+     1725.67,
+     318.54,
+     -1023.25
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B81",
+   "name_de": "Pavillon (LP06 31)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 314.42,
+   "ridge_h": 317.36,
+   "bbox_local": [
+    [
+     1134.59,
+     306.99,
+     -948.31
+    ],
+    [
+     1144.11,
+     317.36,
+     -937.46
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B82",
+   "name_de": "Pavillon (LP06 35)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 278.73,
+   "ridge_h": 282.66,
+   "bbox_local": [
+    [
+     625.38,
+     271.81,
+     -908.09
+    ],
+    [
+     639.22,
+     282.66,
+     -895.58
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B83",
+   "name_de": "Pavillon (LP06 52)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 359.15,
+   "ridge_h": 364.34,
+   "bbox_local": [
+    [
+     1780.8,
+     353.09,
+     -322.82
+    ],
+    [
+     1811.59,
+     364.34,
+     -280.5
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B84",
+   "name_de": "Carlsluster Torhaus",
+   "cls": "RANGE1",
+   "confidence": "low",
+   "eaves_h": 363.45,
+   "ridge_h": 370.65,
+   "bbox_local": [
+    [
+     1620.19,
+     355.03,
+     -442.21
+    ],
+    [
+     1666.15,
+     370.65,
+     -408.41
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KB-B85",
+   "name_de": "Fasanerie",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 358.41,
+   "ridge_h": 368.29,
+   "bbox_local": [
+    [
+     1707.73,
+     352.69,
+     -349.08
+    ],
+    [
+     1758.97,
+     368.29,
+     -320.82
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07"
+   ]
+  },
+  {
+   "id": "KB-B86",
+   "name_de": "Gebäude Nr. 67 (nicht in der Legende)",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 359.76,
+   "ridge_h": 366.9,
+   "bbox_local": [
+    [
+     1532.58,
+     350.7,
+     -354.32
+    ],
+    [
+     1579.22,
+     366.9,
+     -324.18
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KL-B40",
+   "name_de": "Amphitheater (Rundbau mit 19 halbrunden Käfigen und Loge, „Bärenzwinger“)",
+   "cls": "GARD",
+   "confidence": "med",
+   "eaves_h": 301.5,
+   "ridge_h": 301.5,
+   "bbox_local": [
+    [
+     1908.03,
+     295.2,
+     60.03
+    ],
+    [
+     1961.97,
+     301.8,
+     113.97
+    ]
+   ],
+   "sources_de": [
+    "Web: de.wikipedia.org",
+    "Web: schloss-karlsberg.de",
+    "Recherche research/03"
+   ]
+  },
+  {
+   "id": "KL-B41",
+   "name_de": "Pavillon auf der Insel im Amphitheater",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 302.96,
+   "ridge_h": 305.76,
+   "bbox_local": [
+    [
+     1930.7,
+     297.67,
+     82.7
+    ],
+    [
+     1939.3,
+     305.76,
+     91.3
+    ]
+   ],
+   "sources_de": [
+    "Web: de.wikipedia.org",
+    "Recherche research/03"
+   ]
+  },
+  {
+   "id": "KL-B42",
+   "name_de": "sog. Tschifflik-Pavillon (Ruine „Tschifflik“/„Kapelle“)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 332.97,
+   "ridge_h": 337.17,
+   "bbox_local": [
+    [
+     1610.7,
+     323.88,
+     222.7
+    ],
+    [
+     1625.3,
+     337.17,
+     237.3
+    ]
+   ],
+   "sources_de": [
+    "Web: de.wikipedia.org",
+    "Recherche research/03",
+    "Recherche research/02"
+   ]
+  },
+  {
+   "id": "KL-B43",
+   "name_de": "Menagerie (Herzogsterrassen mit eisernen Bären-Kästen)",
+   "cls": "GARD",
+   "confidence": "low",
+   "eaves_h": 298.27,
+   "ridge_h": 298.27,
+   "bbox_local": [
+    [
+     1961.94,
+     286.34,
+     49.95
+    ],
+    [
+     2112.06,
+     298.57,
+     278.06
+    ]
+   ],
+   "sources_de": [
+    "Web: urlaub.saarland",
+    "Recherche research/03",
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KL-B44",
+   "name_de": "Point de Vue",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 290.44,
+   "ridge_h": 294.44,
+   "bbox_local": [
+    [
+     2151,
+     285.59,
+     337.75
+    ],
+    [
+     2159.33,
+     294.44,
+     346.2
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/03",
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KL-B45",
+   "name_de": "Altertum (künstliche Ruine mit Muschelnische)",
+   "cls": "GARD",
+   "confidence": "low",
+   "eaves_h": 281.11,
+   "ridge_h": 281.11,
+   "bbox_local": [
+    [
+     1923.95,
+     271.39,
+     278.95
+    ],
+    [
+     1936.05,
+     281.41,
+     291.05
+    ]
+   ],
+   "sources_de": [
+    "Web: de.wikipedia.org",
+    "Recherche research/02",
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KL-B46",
+   "name_de": "Tschifflik-Pavillon (auf der Terrasse gegenüber der Kaskade)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 312.45,
+   "ridge_h": 318.38,
+   "bbox_local": [
+    [
+     1805.4,
+     304.28,
+     39.28
+    ],
+    [
+     1838.32,
+     318.38,
+     58.82
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/05"
+   ]
+  },
+  {
+   "id": "KL-B47",
+   "name_de": "Gebäude an der Terrasse (LP06 62)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 325.07,
+   "ridge_h": 331.03,
+   "bbox_local": [
+    [
+     1768.56,
+     317.24,
+     -3.32
+    ],
+    [
+     1801.84,
+     331.03,
+     16.22
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KL-B48",
+   "name_de": "Treillagenpavillon",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 312.91,
+   "ridge_h": 319.24,
+   "bbox_local": [
+    [
+     1739.78,
+     304.92,
+     22.83
+    ],
+    [
+     1777.36,
+     319.24,
+     58.62
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  },
+  {
+   "id": "KL-B49",
+   "name_de": "Hymenäostempel (Standort, 1785)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 291.6,
+   "ridge_h": 294.16,
+   "bbox_local": [
+    [
+     1805.9,
+     285.11,
+     366.3
+    ],
+    [
+     1817.5,
+     294.16,
+     378
+    ]
+   ],
+   "sources_de": [
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+   ]
+  }
+ ]
+}

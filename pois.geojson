@@ -1,0 +1,986 @@
+{
+ "type": "FeatureCollection",
+ "name": "Saar LiDAR Explorer – bekannte Orte (Seed)",
+ "attribution": "Koordinaten überwiegend © OpenStreetMap-Mitwirkende (ODbL); siehe source je Objekt",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3784,
+     49.3362
+    ]
+   },
+   "properties": {
+    "id": "r03-01",
+    "name": "Schloss Karlsberg – Hauptschloss (Ruinen)",
+    "name_en": "Schloss Karlsberg – main palace site / ruins",
+    "type": "palace",
+    "confidence": "high",
+    "source": "https://www.openstreetmap.org/?mlat=49.33620&mlon=7.37840#map=18/49.33620/7.37840",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.33620&mlon=7.37840#map=18/49.33620/7.37840"
+    ],
+    "note": "Palace ruin, foundations. OSM node + ruins way; de.wikipedia gives 49.3347, 7.3789 | Fokuspunkt research/01 §5: Schloss Karlsberg (OSM castle node, main ruin) (49.33623, 7.37844)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3789,
+     49.3352
+    ]
+   },
+   "properties": {
+    "id": "r03-02",
+    "name": "Orangerie (Ruine)",
+    "name_en": "Orangerie (ruin)",
+    "type": "palace",
+    "confidence": "high",
+    "source": "https://www.openstreetmap.org/?mlat=49.33520&mlon=7.37890#map=18/49.33520/7.37890",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.33520&mlon=7.37890#map=18/49.33520/7.37890"
+    ],
+    "note": "Ruin. OSM way \"Orangerie\"; de.wikipedia confirms ruins | Fokuspunkt research/01 §5: Karlsberg Orangerie ruin (49.33523, 7.37891)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3732,
+     49.3344
+    ]
+   },
+   "properties": {
+    "id": "r03-03",
+    "name": "Ruine westlich des Schlosses (am Karlsbergweiher)",
+    "name_en": "Unnamed ruin W of palace (near Karlsbergweiher)",
+    "type": "palace",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.33440&mlon=7.37320#map=18/49.33440/7.37320",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.33440&mlon=7.37320#map=18/49.33440/7.37320"
+    ],
+    "note": "Ruin. OSM historic=ruins | Fokuspunkt research/01 §5: Karlsberg ruins (OSM node) (49.33440, 7.37316)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3741,
+     49.3341
+    ]
+   },
+   "properties": {
+    "id": "r03-04",
+    "name": "Karlsbergweiher (mit Insel)",
+    "name_en": "Karlsbergweiher (incl. island)",
+    "type": "garden",
+    "confidence": "high",
+    "source": "https://www.openstreetmap.org/?mlat=49.33410&mlon=7.37410#map=18/49.33410/7.37410",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.33410&mlon=7.37410#map=18/49.33410/7.37410"
+    ],
+    "note": "Baroque park pond. OSM; de/en.wikipedia (park basin remnant)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3828,
+     49.3384
+    ]
+   },
+   "properties": {
+    "id": "r03-05",
+    "name": "Eiskeller",
+    "name_en": "Eiskeller",
+    "type": "palace",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.33840&mlon=7.38280#map=18/49.33840/7.38280",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.33840&mlon=7.38280#map=18/49.33840/7.38280"
+    ],
+    "note": "Ice cellar (archaeological site). OSM historic=archaeological_site | Fokuspunkt research/01 §5: Karlsberg Eiskeller (archaeological site) (49.33811, 7.38271)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3806,
+     49.3397
+    ]
+   },
+   "properties": {
+    "id": "r03-06",
+    "name": "Brunnen am alten Forsthaus",
+    "name_en": "Brunnen am alten Forsthaus",
+    "type": "other",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.33970&mlon=7.38060#map=18/49.33970/7.38060",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.33970&mlon=7.38060#map=18/49.33970/7.38060"
+    ],
+    "note": "Historic well. OSM; de.wikipedia mentions a well at the former Forsthaus"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3835,
+     49.3321
+    ]
+   },
+   "properties": {
+    "id": "r03-07",
+    "name": "Karlsberg-Gipfelplateau (383 m)",
+    "name_en": "Karlsberg summit plateau",
+    "type": "other",
+    "confidence": "high",
+    "source": "https://www.openstreetmap.org/?mlat=49.33210&mlon=7.38350#map=18/49.33210/7.38350",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.33210&mlon=7.38350#map=18/49.33210/7.38350"
+    ],
+    "note": "Topographic high, 383 m. OSM peak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3889,
+     49.3257
+    ]
+   },
+   "properties": {
+    "id": "r03-08",
+    "name": "Bärenzwinger (Karlslust)",
+    "name_en": "Bärenzwinger (Karlslust)",
+    "type": "garden",
+    "confidence": "high",
+    "source": "https://www.urlaub.saarland/attraktion/baerenzwinger-1986e52928",
+    "sources": [
+     "https://www.urlaub.saarland/attraktion/baerenzwinger-1986e52928",
+     "https://www.openstreetmap.org/?mlat=49.32570&mlon=7.38890#map=18/49.32570/7.38890"
+    ],
+    "note": "Ring of 19 enclosures around a moated island, from 1778. OSM way; urlaub.saarland; de.wikipedia"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.389,
+     49.326
+    ]
+   },
+   "properties": {
+    "id": "r03-09",
+    "name": "Herzogsterrassen (Bärenkäfige, 1786)",
+    "name_en": "Herzogsterrassen (bear cages, 1786)",
+    "type": "garden",
+    "confidence": "low",
+    "source": "https://www.urlaub.saarland/attraktion/baerenzwinger-1986e52928",
+    "sources": [
+     "https://www.urlaub.saarland/attraktion/baerenzwinger-1986e52928"
+    ],
+    "note": "Terraces. \"Near the Bärenzwinger, above the Schwanenweiher\" (urlaub.saarland); exact spot unverified (Lage ungefähr)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3881,
+     49.3242
+    ]
+   },
+   "properties": {
+    "id": "r03-10",
+    "name": "Schwanenweiher (3 Weiher)",
+    "name_en": "Schwanenweiher (3 ponds)",
+    "type": "garden",
+    "confidence": "high",
+    "source": "https://www.openstreetmap.org/?mlat=49.32420&mlon=7.38810#map=18/49.32420/7.38810",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.32420&mlon=7.38810#map=18/49.32420/7.38810"
+    ],
+    "note": "Baroque ponds. OSM; de.wikipedia"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3873,
+     49.3248
+    ]
+   },
+   "properties": {
+    "id": "r03-11",
+    "name": "Tosbecken / Kaskade (Karlslust)",
+    "name_en": "Tosbecken / Kaskade (Karlslust)",
+    "type": "garden",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.32480&mlon=7.38730#map=18/49.32480/7.38730",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.32480&mlon=7.38730#map=18/49.32480/7.38730"
+    ],
+    "note": "Cascade basin. OSM \"Tosbecken\"; komoot \"Kaskade mit Tosbecken\""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3846,
+     49.3243
+    ]
+   },
+   "properties": {
+    "id": "r03-12",
+    "name": "Tschifflik-Pavillon (Ruine)",
+    "name_en": "Tschifflik Pavillon (ruin)",
+    "type": "palace",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.32430&mlon=7.38460#map=18/49.32430/7.38460",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.32430&mlon=7.38460#map=18/49.32430/7.38460"
+    ],
+    "note": "Pavilion ruin. OSM way; de.wikipedia (attribution of the ruin debated) | Fokuspunkt research/01 §5: Tschifflik pavilion ruin (49.32433, 7.38459)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.392,
+     49.3234
+    ]
+   },
+   "properties": {
+    "id": "r03-13",
+    "name": "Eremitage (Karlslust)",
+    "name_en": "Eremitage (Karlslust)",
+    "type": "garden",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.32340&mlon=7.39200#map=18/49.32340/7.39200",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.32340&mlon=7.39200#map=18/49.32340/7.39200"
+    ],
+    "note": "Garden building site. OSM tourism=attraction; komoot"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3699,
+     49.3331
+    ]
+   },
+   "properties": {
+    "id": "r03-16a",
+    "name": "Grenzstein „D/S“",
+    "name_en": "\"D/S\" boundary stones (Karlsberg)",
+    "type": "boundary_stone",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.33310&mlon=7.36990#map=18/49.33310/7.36990",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.33310&mlon=7.36990#map=18/49.33310/7.36990"
+    ],
+    "note": "Border stones; probably the 1920–35 Saargebiet border (Kirrberg stayed with Bavaria/Pfalz in 1920). OSM boundary_stone name=D/S; many more unnamed stones in OSM along the line"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3756,
+     49.3371
+    ]
+   },
+   "properties": {
+    "id": "r03-16b",
+    "name": "Grenzstein „D/S“",
+    "name_en": "\"D/S\" boundary stones (Karlsberg)",
+    "type": "boundary_stone",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.33710&mlon=7.37560#map=18/49.33710/7.37560",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.33710&mlon=7.37560#map=18/49.33710/7.37560"
+    ],
+    "note": "Border stones; probably the 1920–35 Saargebiet border (Kirrberg stayed with Bavaria/Pfalz in 1920). OSM boundary_stone name=D/S; many more unnamed stones in OSM along the line"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.376,
+     49.3124
+    ]
+   },
+   "properties": {
+    "id": "r03-17",
+    "name": "Burgruine Merburg",
+    "name_en": "Burgruine Merburg (Kirrberg)",
+    "type": "castle",
+    "confidence": "high",
+    "source": "https://de.wikipedia.org/wiki/Merburg",
+    "sources": [
+     "https://de.wikipedia.org/wiki/Merburg",
+     "https://en.wikipedia.org/wiki/Merburg",
+     "https://www.openstreetmap.org/?mlat=49.31240&mlon=7.37600#map=18/49.31240/7.37600"
+    ],
+    "note": "Castle ruin (12th c., Count Dietrich v. Merburg 1179): octagonal keep, 75 m ring wall, on the Malafelsen above the Lambsbach. de.wikipedia 49.3119, 7.3756; OSM 49.3124, 7.3760; en.wikipedia | Fokuspunkt research/01 §5: Burgruine Merburg (Kirrberg) (49.31243, 7.37597)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3746,
+     49.3131
+    ]
+   },
+   "properties": {
+    "id": "r03-18",
+    "name": "Fischweiher Kirrberg",
+    "name_en": "Fischweiher Kirrberg",
+    "type": "other",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.31310&mlon=7.37460#map=18/49.31310/7.37460",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.31310&mlon=7.37460#map=18/49.31310/7.37460"
+    ],
+    "note": "Pond (near Merburg). OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3694,
+     49.3003
+    ]
+   },
+   "properties": {
+    "id": "r03-19",
+    "name": "Kirrberg – Wallfahrtskirche Mariä Himmelfahrt",
+    "name_en": "Kirrberg village centre / Wallfahrtskirche Mariä Himmelfahrt (1290 \"Capella in Kirchperch\")",
+    "type": "other",
+    "confidence": "high",
+    "source": "https://de.wikipedia.org/wiki/Kirrberg_(Homburg",
+    "sources": [
+     "https://de.wikipedia.org/wiki/Kirrberg_(Homburg"
+    ],
+    "note": "Village / church. de.wikipedia Kirrberg) | Fokuspunkt research/01 §5: Kirrberg village centre (49.30070, 7.36880)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.359,
+     49.3132
+    ]
+   },
+   "properties": {
+    "id": "r03-22",
+    "name": "Keltische Grabhügel „Rabenhorst“ (9 Hügel)",
+    "name_en": "Keltischer Grabhügel \"Rabenhorst\" (9 mounds; mound 1 excavated 2002: 12 graves, about 2.5 m stele, late Hallstatt / early La Tène)",
+    "type": "burial_mound",
+    "confidence": "high",
+    "source": "https://www.kuladig.de/Objektansicht/KLD-354061",
+    "sources": [
+     "https://www.kuladig.de/Objektansicht/KLD-354061",
+     "https://www.openstreetmap.org/?mlat=49.31320&mlon=7.35900#map=18/49.31320/7.35900"
+    ],
+    "note": "Barrow cemetery. KuLaDig KLD-354061 = OSM node (identical). LiDAR should show the other 8 mounds nearby. | Fokuspunkt research/01 §5: Celtic burial mounds (Keltischer Grabhügel) (49.31320, 7.35907)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3811,
+     49.3203
+    ]
+   },
+   "properties": {
+    "id": "r03-23",
+    "name": "Keltischer Grabhügel (beim Schwanenweiher)",
+    "name_en": "Keltischer Grabhügel (east, near Schwanenweiher)",
+    "type": "burial_mound",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.32030&mlon=7.38110#map=18/49.32030/7.38110",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.32030&mlon=7.38110#map=18/49.32030/7.38110"
+    ],
+    "note": "Barrow. OSM | Fokuspunkt research/01 §5: Celtic burial mounds (Keltischer Grabhügel) (49.32033, 7.38108)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3817,
+     49.3202
+    ]
+   },
+   "properties": {
+    "id": "r03-24",
+    "name": "Pyramidenstein / Totenstein (Menhir)",
+    "name_en": "\"Pyramidenstein / Totenstein\"",
+    "type": "other",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.32020&mlon=7.38170#map=18/49.32020/7.38170",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.32020&mlon=7.38170#map=18/49.32020/7.38170"
+    ],
+    "note": "Menhir / megalith (per OSM). OSM archaeological_site=megalith"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.37,
+     49.325
+    ]
+   },
+   "properties": {
+    "id": "r03-25",
+    "name": "Hallstatt-Grabhügel am Stumpfen Gipfel",
+    "name_en": "Hallstatt mounds \"am Stumpfen Gipfel bei Homburg\"",
+    "type": "burial_mound",
+    "confidence": "low",
+    "source": "https://www.openstreetmap.org/?mlat=49.32500&mlon=7.37000#map=18/49.32500/7.37000",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.32500&mlon=7.37000#map=18/49.32500/7.37000"
+    ],
+    "note": "Barrows. Literature title (Reinhard) in a publication index; Stumpfer Gipfel peak (340 m) per OSM at 49.3251, 7.3697. Exact mounds not located; may overlap #23. (Lage ungefähr)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3443,
+     49.3206
+    ]
+   },
+   "properties": {
+    "id": "r03-26",
+    "name": "Burgruine Hohenburg + Vauban-Festung (Schlossberg)",
+    "name_en": "Burgruine Hohenburg (Schlossberg) + Vauban fortress (1679–1692, razed 1714; ruins restored from 1981)",
+    "type": "castle",
+    "confidence": "high",
+    "source": "https://en.wikipedia.org/wiki/Hohenburg_Castle_(Homburg",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Hohenburg_Castle_(Homburg",
+     "https://de.wikipedia.org/wiki/Homburg",
+     "https://www.openstreetmap.org/?mlat=49.32060&mlon=7.34430#map=18/49.32060/7.34430"
+    ],
+    "note": "Castle and fortress ruins. OSM; en.wikipedia) 49.3210, 7.3448; de.wikipedia Homburg | Fokuspunkt research/01 §5: Schlossberg / Burgruine Hohenburg (49.32059, 7.34431)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3427,
+     49.3205
+    ]
+   },
+   "properties": {
+    "id": "r03-27",
+    "name": "Schlossberghöhlen",
+    "name_en": "Schlossberghöhlen",
+    "type": "cave",
+    "confidence": "high",
+    "source": "https://www.t-online.de/leben/reisen/deutschland/id_58983516/homburg-riesige-hoehle-von-menschenhand-in-deutschland.html",
+    "sources": [
+     "https://www.t-online.de/leben/reisen/deutschland/id_58983516/homburg-riesige-hoehle-von-menschenhand-in-deutschland.html",
+     "https://www.openstreetmap.org/?mlat=49.32050&mlon=7.34270#map=18/49.32050/7.34270"
+    ],
+    "note": "Man-made red sandstone caves (15th–17th c.; rediscovered 1930s; WWII air-raid shelter). OSM; t-online; de.wikipedia. Underground, so not visible in LiDAR; only the entrances and surface are. | Fokuspunkt research/01 §5: Schlossberghöhlen (sandstone caves) (49.32051, 7.34265)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3544,
+     49.3218
+    ]
+   },
+   "properties": {
+    "id": "r03-28",
+    "name": "Ruine östlich des Schlossbergs",
+    "name_en": "Unnamed ruin E of Schlossberg",
+    "type": "other",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.32180&mlon=7.35440#map=18/49.32180/7.35440",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.32180&mlon=7.35440#map=18/49.32180/7.35440"
+    ],
+    "note": "Ruin. OSM historic=ruins"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3179,
+     49.2828
+    ]
+   },
+   "properties": {
+    "id": "r03-29",
+    "name": "Römermuseum Schwarzenacker (gallo-römischer Vicus)",
+    "name_en": "Römermuseum Schwarzenacker (Gallo-Roman vicus, about 0–275 AD; junction of the Metz–Mainz and Trier–Straßburg roads)",
+    "type": "other",
+    "confidence": "high",
+    "source": "https://en.wikipedia.org/wiki/Schwarzenacker_Roman_Museum",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Schwarzenacker_Roman_Museum",
+     "https://www.openstreetmap.org/?mlat=49.28280&mlon=7.31790#map=18/49.28280/7.31790"
+    ],
+    "note": "Roman settlement / museum. OSM; en.wikipedia 49.2828, 7.3167; de.wikipedia Homburg"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3052,
+     49.2832
+    ]
+   },
+   "properties": {
+    "id": "r03-30",
+    "name": "Hügel „Gloria Romanorum“ (Wörschweiler)",
+    "name_en": "Hügel \"Gloria Romanorum\" (Wörschweiler)",
+    "type": "burial_mound",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.28320&mlon=7.30520#map=18/49.28320/7.30520",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.28320&mlon=7.30520#map=18/49.28320/7.30520"
+    ],
+    "note": "Tumulus. OSM archaeological_site=tumulus"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3074,
+     49.2841
+    ]
+   },
+   "properties": {
+    "id": "r03-31",
+    "name": "Klosterruine Wörschweiler",
+    "name_en": "Klosterruine Wörschweiler",
+    "type": "other",
+    "confidence": "high",
+    "source": "https://www.openstreetmap.org/?mlat=49.28410&mlon=7.30740#map=18/49.28410/7.30740",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.28410&mlon=7.30740#map=18/49.28410/7.30740"
+    ],
+    "note": "Abbey ruin. OSM; de.wikipedia Homburg"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3156,
+     49.3081
+    ]
+   },
+   "properties": {
+    "id": "r03-32",
+    "name": "Turmruine Beeden",
+    "name_en": "Turmruine Beeden",
+    "type": "castle",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.30810&mlon=7.31560#map=18/49.30810/7.31560",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.30810&mlon=7.31560#map=18/49.30810/7.31560"
+    ],
+    "note": "Tower ruin. OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3351,
+     49.2838
+    ]
+   },
+   "properties": {
+    "id": "r03-33",
+    "name": "Bunker (gesprengt), südlich Homburg",
+    "name_en": "Bunker (ruin, \"gesprengt\" = blown up), S of Homburg / Webersberg area",
+    "type": "bunker",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.28380&mlon=7.33510#map=18/49.28380/7.33510",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.28380&mlon=7.33510#map=18/49.28380/7.33510"
+    ],
+    "note": "WWII bunker. OSM military=bunker"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3787,
+     49.2949
+    ]
+   },
+   "properties": {
+    "id": "r03-34",
+    "name": "Bunker (Ruine), südlich Kirrberg",
+    "name_en": "Bunker (ruin), S of Kirrberg",
+    "type": "bunker",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.29490&mlon=7.37870#map=18/49.29490/7.37870",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.29490&mlon=7.37870#map=18/49.29490/7.37870"
+    ],
+    "note": "WWII bunker. OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3634,
+     49.2651
+    ]
+   },
+   "properties": {
+    "id": "r03-35",
+    "name": "Bunker (Kampfstand), Rothenbergerhof",
+    "name_en": "Bunker (pillbox), near Rothenbergerhof",
+    "type": "bunker",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.26510&mlon=7.36340#map=18/49.26510/7.36340",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.26510&mlon=7.36340#map=18/49.26510/7.36340"
+    ],
+    "note": "WWII bunker. OSM bunker_type=pillbox"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.40605,
+     49.27485
+    ]
+   },
+   "properties": {
+    "id": "r03-36",
+    "name": "Bunker bei Oberauerbach (3 Anlagen)",
+    "name_en": "3 bunkers near Oberauerbach (Zweibrücken)",
+    "type": "bunker",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.27485&mlon=7.40605#map=18/49.27485/7.40605",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.27485&mlon=7.40605#map=18/49.27485/7.40605"
+    ],
+    "note": "WWII bunkers. OSM (3 ways) (Lage ungefähr)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.4448,
+     49.3563
+    ]
+   },
+   "properties": {
+    "id": "r03-37",
+    "name": "Bunker (Ruine), Rosenkopf / Bechhofen",
+    "name_en": "Bunker (ruin) near Rosenkopf / Bechhofen",
+    "type": "bunker",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.35630&mlon=7.44480#map=18/49.35630/7.44480",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.35630&mlon=7.44480#map=18/49.35630/7.44480"
+    ],
+    "note": "WWII bunker. OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3861,
+     49.3589
+    ]
+   },
+   "properties": {
+    "id": "r03-38",
+    "name": "Alter Stolleneingang",
+    "name_en": "\"Alter Stolleneingang\"",
+    "type": "mine",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.35890&mlon=7.38610#map=18/49.35890/7.38610",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.35890&mlon=7.38610#map=18/49.35890/7.38610"
+    ],
+    "note": "Old adit (mining). OSM. Purpose (coal? sand? water?) unknown."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3211,
+     49.2836
+    ]
+   },
+   "properties": {
+    "id": "r03-39a",
+    "name": "Felsenkeller (Schwarzenacker–Einöd)",
+    "name_en": "Felsenkeller / Schlangenhöhle (Schwarzenacker–Einöd)",
+    "type": "cave",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.28360&mlon=7.32110#map=18/49.28360/7.32110",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.28360&mlon=7.32110#map=18/49.28360/7.32110"
+    ],
+    "note": "Rock cellar / cave. OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3217,
+     49.2806
+    ]
+   },
+   "properties": {
+    "id": "r03-39b",
+    "name": "Schlangenhöhle (Schwarzenacker–Einöd)",
+    "name_en": "Felsenkeller / Schlangenhöhle (Schwarzenacker–Einöd)",
+    "type": "cave",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.28060&mlon=7.32170#map=18/49.28060/7.32170",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.28060&mlon=7.32170#map=18/49.28060/7.32170"
+    ],
+    "note": "Rock cellar / cave. OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.2871,
+     49.2977
+    ]
+   },
+   "properties": {
+    "id": "r03-40",
+    "name": "Sandgrube",
+    "name_en": "Sandgrube (W edge of area)",
+    "type": "mine",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.29770&mlon=7.28710#map=18/49.29770/7.28710",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.29770&mlon=7.28710#map=18/49.29770/7.28710"
+    ],
+    "note": "Sand pit / quarry. OSM landuse=quarry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3409,
+     49.3215
+    ]
+   },
+   "properties": {
+    "id": "r03-41",
+    "name": "Homburg Innenstadt (Luftangriffe 1944/45 – Bombentrichter?)",
+    "name_en": "Homburg town (WWII air raids 1944–45; heaviest raid 14 March 1945 by RAF/USAAF, 220 killed; a synthetic fuel plant was still operating in March 1945; US troops entered 20 March 1945)",
+    "type": "other",
+    "confidence": "high",
+    "source": "https://de.wikipedia.org/wiki/Homburg",
+    "sources": [
+     "https://de.wikipedia.org/wiki/Homburg"
+    ],
+    "note": "Bombing context → look for crater fields near the rail yards, industrial sites and the approach corridors. de.wikipedia Homburg | Fokuspunkt research/01 §5: Homburg Marktplatz (49.32147, 7.34105)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3737,
+     49.3519
+    ]
+   },
+   "properties": {
+    "id": "r03-42",
+    "name": "Königsbrucherhof (1766)",
+    "name_en": "Königsbrucherhof (1766)",
+    "type": "other",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.35190&mlon=7.37370#map=18/49.35190/7.37370",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.35190&mlon=7.37370#map=18/49.35190/7.37370"
+    ],
+    "note": "Historic estate. OSM heritage=4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3612,
+     49.3455
+    ]
+   },
+   "properties": {
+    "id": "r03-43",
+    "name": "Napoleon-Stein (Schelmenkopf)",
+    "name_en": "Napoleon-Stein (Schelmenkopf)",
+    "type": "other",
+    "confidence": "med",
+    "source": "https://www.openstreetmap.org/?mlat=49.34550&mlon=7.36120#map=18/49.34550/7.36120",
+    "sources": [
+     "https://www.openstreetmap.org/?mlat=49.34550&mlon=7.36120#map=18/49.34550/7.36120"
+    ],
+    "note": "Memorial stone. OSM"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3859,
+     49.3122
+    ]
+   },
+   "properties": {
+    "id": "hill-zimmermannsberg",
+    "name": "Zimmermannsberg (mögliche Höhenbefestigung?)",
+    "name_en": "Zimmermannsberg (mögliche Höhenbefestigung?)",
+    "type": "other",
+    "confidence": "low",
+    "source": "https://de.wikipedia.org/wiki/Kirrberg_(Homburg)",
+    "sources": [
+     "https://de.wikipedia.org/wiki/Kirrberg_(Homburg)",
+     "https://www.openstreetmap.org/?mlat=49.31220&mlon=7.38590#map=18/49.31220/7.38590"
+    ],
+    "note": "research/03 #20: frühkeltische Höhenbefestigungen (1000–800 v. Chr.) auf den Höhen nördlich Kirrberg laut de.wikipedia „noch sichtbar“, Lage unbekannt – Kandidat für die LiDAR-Suche."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3933,
+     49.308
+    ]
+   },
+   "properties": {
+    "id": "hill-tobisberg",
+    "name": "Tobisberg (mögliche Höhenbefestigung?)",
+    "name_en": "Tobisberg (mögliche Höhenbefestigung?)",
+    "type": "other",
+    "confidence": "low",
+    "source": "https://de.wikipedia.org/wiki/Kirrberg_(Homburg)",
+    "sources": [
+     "https://de.wikipedia.org/wiki/Kirrberg_(Homburg)",
+     "https://www.openstreetmap.org/?mlat=49.30800&mlon=7.39330#map=18/49.30800/7.39330"
+    ],
+    "note": "research/03 #20: frühkeltische Höhenbefestigungen (1000–800 v. Chr.) auf den Höhen nördlich Kirrberg laut de.wikipedia „noch sichtbar“, Lage unbekannt – Kandidat für die LiDAR-Suche."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.399,
+     49.3127
+    ]
+   },
+   "properties": {
+    "id": "hill-kastenbuehl",
+    "name": "Kastenbühl (mögliche Höhenbefestigung?)",
+    "name_en": "Kastenbühl (mögliche Höhenbefestigung?)",
+    "type": "other",
+    "confidence": "low",
+    "source": "https://de.wikipedia.org/wiki/Kirrberg_(Homburg)",
+    "sources": [
+     "https://de.wikipedia.org/wiki/Kirrberg_(Homburg)",
+     "https://www.openstreetmap.org/?mlat=49.31270&mlon=7.39900#map=18/49.31270/7.39900"
+    ],
+    "note": "research/03 #20: frühkeltische Höhenbefestigungen (1000–800 v. Chr.) auf den Höhen nördlich Kirrberg laut de.wikipedia „noch sichtbar“, Lage unbekannt – Kandidat für die LiDAR-Suche."
+   }
+  }
+ ]
+}
