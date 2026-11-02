@@ -29,7 +29,7 @@
   "footprints": "footprints.geojson"
  },
  "viewer": {
-  "url": "http://localhost:5260/"
+  "url": "https://open-kirrberg.github.io/saar-lidar-explorer/castle/"
  },
  "attribution": "Rekonstruktion Schloss Karlsberg 1789 (Hypothese): Teilprojekt schloss-karlsberg, Katalog v2 (research/01-08); Grundrisse teils nach Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE); Sockeltiefen: DGM1 GeoBasis-DE/LVGL-SL (2026), dl-de/by-2-0",
  "disclaimer_de": "Hypothetische Rekonstruktion, kein Befund. Schauen, nicht graben.",
