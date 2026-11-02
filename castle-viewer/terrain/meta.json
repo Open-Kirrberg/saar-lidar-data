@@ -1,0 +1,118 @@
+{
+ "version": 1,
+ "generated": "2026-11-01T15:57:53+0100",
+ "crs": "EPSG:25832",
+ "height_datum": "DHHN2016",
+ "local_frame": {
+  "E0": 381000,
+  "N0": 5465000,
+  "rule": "x = E - E0, y = h, z = -(N - N0)"
+ },
+ "grid": {
+  "west": 381150.0,
+  "north": 5467150.0,
+  "east": 383300.0,
+  "south": 5464500.0,
+  "cell": 1.0,
+  "cols": 2150,
+  "rows": 2650,
+  "order": "row-major, row 0 = north edge, col 0 = west edge",
+  "pixel_is_area": true,
+  "cell_centre": "E = west + (col + 0.5) * cell, N = north - (row + 0.5) * cell",
+  "dtype": "float32 little-endian"
+ },
+ "files": {
+  "dtm2025": "dtm2025.f32",
+  "dtm1789": "dtm1789.f32",
+  "ground": "ground.u8"
+ },
+ "ground": {
+  "cell": 2.0,
+  "cols": 1075,
+  "rows": 1325,
+  "dtype": "uint8",
+  "classes": {
+   "0": {
+    "name": "meadow",
+    "label_de": "Wiese / Feld (Annahme)"
+   },
+   "1": {
+    "name": "lawn",
+    "label_de": "Rasen (Parterre, Terrasse)"
+   },
+   "2": {
+    "name": "gravel",
+    "label_de": "Kies / Sandsteingrus"
+   },
+   "3": {
+    "name": "cobbles",
+    "label_de": "Pflaster"
+   },
+   "4": {
+    "name": "sand",
+    "label_de": "Sand (Reitplatz)"
+   },
+   "5": {
+    "name": "water",
+    "label_de": "Wasser"
+   },
+   "6": {
+    "name": "forest",
+    "label_de": "Wald (heutiger Bestand als Annahme)"
+   },
+   "7": {
+    "name": "building",
+    "label_de": "Gebäudegrund"
+   }
+  },
+  "counts": {
+   "meadow": 372764,
+   "lawn": 2293,
+   "gravel": 10943,
+   "cobbles": 560,
+   "sand": 2915,
+   "water": 3478,
+   "forest": 1021973,
+   "building": 9449
+  },
+  "tag": "I: classes from catalogue features; forest = today's canopy > 8 m more than 40 m from any residence feature (proxy, U for 1789)"
+ },
+ "h_range": [
+  239.83999633789062,
+  366.1400146484375
+ ],
+ "sources": {
+  "dtm": "DGM1 LVGL-SL 2025 via the explorer pipeline (data/work/karlsberg/dtm.tif, filled from data/work/overall/dtm.tif)",
+  "read_report": {
+   "from_karlsberg": 4622500,
+   "overlap_cells": 4622500,
+   "overlap_max_abs_diff_m": 0.0,
+   "overlap_mean_abs_diff_m": 0.0,
+   "filled_from_overall": 1075000,
+   "nan_filled_nearest": 0
+  }
+ },
+ "rules_1789": [
+  "smoothed parterres/gardens: 39023 cells",
+  "TF-20 pond floor <= 275.68: 5634 cells",
+  "TF-31 pond floor <= 271.20: 1303 cells",
+  "TF-32 pond floor <= 269.60: 1870 cells",
+  "TF-33 pond floor <= 266.30: 2123 cells",
+  "TF-34 pond floor <= 267.80: 376 cells",
+  "TF-43 pond floor <= 287.50: 992 cells",
+  "TF-44 pond floor <= 296.20: 329 cells",
+  "TF-09 parterre level 345.9 (talus 8 m): 3829 cells",
+  "TF-15 parterre level 340.8 (talus 8 m): 1399 cells",
+  "TF-03 terrace level 344.8: 11047 cells",
+  "TF-05 terrace level 344.1: 17766 cells",
+  "TF-06 terrace level 340.8: 3323 cells",
+  "TF-07 terrace level 335.2: 1479 cells",
+  "TF-08 terrace level 344.06: 1593 cells",
+  "TF-36 rondell level 287.5: 112 cells",
+  "TF-01 court level 344.8: 2624 cells",
+  "TF-02 court level 344.8: 2224 cells",
+  "building aprons (3 m flat at the adjacent level or base_h + 3 m blend): 17678 cells",
+  "building footprints from the nearest outside level, <= lowest floor - 0.05: 85 buildings"
+ ],
+ "attribution": "Gelände: GeoBasis-DE/LVGL-SL (2026), dl-de/by-2-0; 1789-Gelände = Hypothese (Generator-Regeln)"
+}
