@@ -1,6 +1,6 @@
 {
- "version": 1,
- "generated": "2026-11-01T15:57:53+0100",
+ "version": 2,
+ "generated": "2026-11-02T18:57:02+0100",
  "crs": "EPSG:25832",
  "height_datum": "DHHN2016",
  "local_frame": {
@@ -24,7 +24,8 @@
  "files": {
   "dtm2025": "dtm2025.f32",
   "dtm1789": "dtm1789.f32",
-  "ground": "ground.u8"
+  "ground": "ground.u8",
+  "ground2025": "ground2025.u8"
  },
  "ground": {
   "cell": 2.0,
@@ -58,28 +59,97 @@
    },
    "6": {
     "name": "forest",
-    "label_de": "Wald (heutiger Bestand als Annahme)"
+    "label_de": "Wald (1789: Landbedeckung nach research/11 S1; 2025: heutiger Bestand)"
    },
    "7": {
     "name": "building",
     "label_de": "Gebäudegrund"
+   },
+   "8": {
+    "name": "field",
+    "label_de": "Acker (Getreide, Juli)"
+   },
+   "9": {
+    "name": "vineyard",
+    "label_de": "Weinberg"
+   },
+   "10": {
+    "name": "kitchen_garden",
+    "label_de": "Küchen- und Baumschulgarten"
+   },
+   "11": {
+    "name": "hay",
+    "label_de": "Heuwiese (Juli, teils gemäht)"
+   },
+   "12": {
+    "name": "parterre_sand",
+    "label_de": "Feiner Parterresand"
    }
   },
   "counts": {
-   "meadow": 372764,
-   "lawn": 2293,
-   "gravel": 10943,
+   "meadow": 495512,
+   "lawn": 20689,
+   "gravel": 6134,
    "cobbles": 560,
    "sand": 2915,
-   "water": 3478,
-   "forest": 1021973,
-   "building": 9449
+   "water": 3535,
+   "forest": 330309,
+   "building": 9425,
+   "field": 270478,
+   "vineyard": 5196,
+   "kitchen_garden": 20287,
+   "hay": 258587,
+   "parterre_sand": 748
   },
-  "tag": "I: classes from catalogue features; forest = today's canopy > 8 m more than 40 m from any residence feature (proxy, U for 1789)"
+  "counts2025": {
+   "meadow": 377832,
+   "lawn": 20306,
+   "gravel": 6134,
+   "cobbles": 560,
+   "sand": 2915,
+   "water": 3535,
+   "forest": 1002872,
+   "building": 9615,
+   "field": 0,
+   "vineyard": 0,
+   "kitchen_garden": 0,
+   "hay": 0,
+   "parterre_sand": 606
+  },
+  "landcover": [
+   "LC-01 field: 22.4 ha painted",
+   "LC-02 field: 37.0 ha painted",
+   "LC-03 field: 38.9 ha painted",
+   "LC-04 field: 22.1 ha painted",
+   "LC-05 hay: 47.5 ha painted",
+   "LC-10 forest: 69.0 ha painted",
+   "LC-11 forest: 73.7 ha painted",
+   "LC-12 forest: 13.3 ha painted",
+   "LC-13 forest: 6.9 ha painted",
+   "LC-14 forest: 3.5 ha painted",
+   "LC-15 forest: 3.8 ha painted",
+   "LC-16 forest: 1.8 ha painted",
+   "LC-20 hay: 52.0 ha painted",
+   "LC-21 hay: 15.2 ha painted",
+   "LC-17 forest: 4.6 ha painted",
+   "LC-22 lawn: 7.9 ha painted",
+   "LC-23 vineyard: 2.2 ha painted",
+   "LC-24 kitchen_garden: 3.0 ha painted",
+   "LC-25 kitchen_garden: 2.1 ha painted",
+   "LC-26 kitchen_garden: 0.6 ha painted",
+   "LC-27 kitchen_garden: 2.3 ha painted",
+   "LC-28 kitchen_garden: 0.3 ha painted",
+   "LC-29 kitchen_garden: 0.3 ha painted",
+   "LC-30 kitchen_garden: 0.6 ha painted",
+   "LC-31 meadow: 0.3 ha painted",
+   "LC-32 lawn: 0.2 ha painted",
+   "forest edge noise +-7.0 m: 12784 cells grown, 10754 shrunk"
+  ],
+  "tag": "1789 (ground.u8): catalogue landcover polygons (research/11 S1, scripts/catalogue-v2/landcover.ts; D PV 1791, D Petri plan, D LP06; extents I +-30 m) with a seeded irregular forest edge, then the terrain features; 2025 (ground2025.u8): today's canopy > 8 m more than 40 m from any residence feature"
  },
  "h_range": [
-  239.83999633789062,
-  366.1400146484375
+  240.084228515625,
+  365.82318115234375
  ],
  "sources": {
   "dtm": "DGM1 LVGL-SL 2025 via the explorer pipeline (data/work/karlsberg/dtm.tif, filled from data/work/overall/dtm.tif)",
@@ -93,7 +163,8 @@
   }
  },
  "rules_1789": [
-  "smoothed parterres/gardens: 39023 cells",
+  "smoothed parterres/gardens: 18156 cells",
+  "HG-04 pond floor <= 349.30: 147 cells",
   "TF-20 pond floor <= 275.68: 5634 cells",
   "TF-31 pond floor <= 271.20: 1303 cells",
   "TF-32 pond floor <= 269.60: 1870 cells",
@@ -101,18 +172,35 @@
   "TF-34 pond floor <= 267.80: 376 cells",
   "TF-43 pond floor <= 287.50: 992 cells",
   "TF-44 pond floor <= 296.20: 329 cells",
-  "TF-09 parterre level 345.9 (talus 8 m): 3829 cells",
   "TF-15 parterre level 340.8 (talus 8 m): 1399 cells",
   "TF-03 terrace level 344.8: 11047 cells",
   "TF-05 terrace level 344.1: 17766 cells",
-  "TF-06 terrace level 340.8: 3323 cells",
+  "TF-06 terrace level 340.8: 3014 cells",
   "TF-07 terrace level 335.2: 1479 cells",
   "TF-08 terrace level 344.06: 1593 cells",
+  "TF-09 terrace level 345.9: 424 cells",
+  "HG-05 rondell level 349.5: 307 cells",
   "TF-36 rondell level 287.5: 112 cells",
   "TF-01 court level 344.8: 2624 cells",
   "TF-02 court level 344.8: 2224 cells",
-  "building aprons (3 m flat at the adjacent level or base_h + 3 m blend): 17678 cells",
-  "building footprints from the nearest outside level, <= lowest floor - 0.05: 85 buildings"
+  "TF-07 grass bank (no retaining wall): drop p90 5.59 m, talus 10.0 m, crest rounded",
+  "TF-09 grass bank (no retaining wall): drop p90 0.45 m, talus 3.0 m, crest rounded",
+  "building aprons (3 m flat at the adjacent level or base_h + 3 m blend): 18623 cells",
+  "KB-B06a pavilion pad: long blend 12 m, 345 cells, max change 2.67 m",
+  "KB-B07 pavilion pad: long blend 12 m, 987 cells, max change 0.76 m",
+  "KB-B87 pavilion pad: long blend 12 m, 997 cells, max change 1.00 m",
+  "KB-B88 pavilion pad: long blend 12 m, 961 cells, max change 2.50 m",
+  "KB-B02 portico forecourt pad 7 m at 344.8 + bank 9 m: 79 pad cells, 480 changed",
+  "KB-V1 forecourt plane: 561 cells (402 hump cells dropped from the fit), slope 4.0 %, max fill 0.98 m, max cut -2.55 m",
+  "KB-V2 drive 43.2 m at 9.8 % (344.8 -> 340.55), 8 m wide: 348 cells, fill up to 2.01 m, foot vs ground -0.14 m",
+  "TF-08 straight wall foot: ramp +-0.8 m, flat to 1.6 m: 98 + 50 cells",
+  "building footprints from the nearest outside level, <= lowest floor - 0.05: 96 buildings",
+  "open-land relief 1789 (fill/cut < 1.6 m, r 5 m; sigma lawn 8.0 m, fields 3.5 m): 2453798 cells changed, max fill 2.80 m, max cut -3.11 m, micro-relief rms 0.239 -> 0.147 m",
+  "TF-20 natural shore: water 5112 cells (polygon 5634), bank 2858 cells, max fill 1.18 m, max cut -2.04 m",
+  "TF-31 natural shore: water 1144 cells (polygon 1303), bank 1253 cells, max fill 2.25 m, max cut -3.11 m",
+  "TF-32 natural shore: water 1687 cells (polygon 1870), bank 1338 cells, max fill 1.44 m, max cut -2.35 m",
+  "TF-33 natural shore: water 1958 cells (polygon 2123), bank 1454 cells, max fill 1.92 m, max cut -3.10 m",
+  "TF-34 natural shore: water 316 cells (polygon 376), bank 749 cells, max fill 4.36 m, max cut -1.12 m"
  ],
  "attribution": "Gelände: GeoBasis-DE/LVGL-SL (2026), dl-de/by-2-0; 1789-Gelände = Hypothese (Generator-Regeln)"
 }
