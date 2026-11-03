@@ -17,7 +17,7 @@
  "bboxEN": [
   [
    381255.3,
-   5464622
+   5464643.2
   ],
   [
    383159.4,
@@ -33,7 +33,7 @@
  },
  "attribution": "Rekonstruktion Schloss Karlsberg 1789 (Hypothese): Teilprojekt schloss-karlsberg, Katalog v2 (research/01-08); Grundrisse teils nach Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE); Sockeltiefen: DGM1 GeoBasis-DE/LVGL-SL (2026), dl-de/by-2-0",
  "disclaimer_de": "Hypothetische Rekonstruktion, kein Befund. Schauen, nicht graben.",
- "generated": "2026-11-01T18:20:16.084Z",
+ "generated": "2026-11-02T23:58:24.946Z",
  "catalogueVersion": 2,
  "buildings": [
   {
@@ -45,14 +45,14 @@
    "ridge_h": 362.72,
    "bbox_local": [
     [
-     1248.65,
+     1249.2,
      343.52,
-     -1148.98
+     -1148.72
     ],
     [
-     1275.96,
-     369.02,
-     -1103.59
+     1275.7,
+     370.44,
+     -1103.85
     ]
    ],
    "sources_de": [
@@ -72,18 +72,42 @@
     [
      1186.29,
      339.77,
-     -1107.11
+     -1107.2
     ],
     [
-     1271.32,
-     365.23,
-     -1076.58
+     1271.41,
+     367.26,
+     -1076.49
     ]
    ],
    "sources_de": [
     "Recherche research/03",
     "Recherche research/01",
     "HMS/Matzerath 2022 (nur Maße, ©)"
+   ]
+  },
+  {
+   "id": "KB-B02a",
+   "name_de": "Altan am Südflügel (Gartenseite, Hypothese)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 351.4,
+   "ridge_h": 351.4,
+   "bbox_local": [
+    [
+     1232.07,
+     343.76,
+     -1084.23
+    ],
+    [
+     1239.05,
+     352.46,
+     -1078.82
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/10",
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
    ]
   },
   {
@@ -95,14 +119,14 @@
    "ridge_h": 363.89,
    "bbox_local": [
     [
-     1185.17,
+     1185.08,
      343.22,
-     -1167.17
+     -1167.26
     ],
     [
-     1261.76,
-     366.59,
-     -1134.03
+     1261.85,
+     367.32,
+     -1133.94
     ]
    ],
    "sources_de": [
@@ -120,14 +144,14 @@
    "ridge_h": 362.76,
    "bbox_local": [
     [
-     1175.69,
+     1175.6,
      343.44,
-     -1213.9
+     -1213.99
     ],
     [
-     1199.38,
-     365.46,
-     -1153.75
+     1199.47,
+     365.89,
+     -1153.66
     ]
    ],
    "sources_de": [
@@ -145,14 +169,14 @@
    "ridge_h": 362.79,
    "bbox_local": [
     [
-     1231.55,
+     1231.46,
      343.93,
-     -1211.6
+     -1211.69
     ],
     [
-     1253.42,
-     365.49,
-     -1162.79
+     1253.51,
+     365.93,
+     -1162.7
     ]
    ],
    "sources_de": [
@@ -176,7 +200,7 @@
     ],
     [
      1272.16,
-     357.11,
+     358.74,
      -1208.74
     ]
    ],
@@ -187,22 +211,45 @@
    ]
   },
   {
-   "id": "KB-B07",
-   "name_de": "Pavillon am Ostende der Galerie",
+   "id": "KB-B06a",
+   "name_de": "Bibliothekspavillon an der Galerie (Kunstbibliothek)",
    "cls": "PAV",
    "confidence": "low",
-   "eaves_h": 355.4,
-   "ridge_h": 359.6,
+   "eaves_h": 353.3,
+   "ridge_h": 355.23,
    "bbox_local": [
     [
-     1269.63,
-     347.3,
-     -1234.81
+     1209.58,
+     345.08,
+     -1227.73
     ],
     [
-     1282.18,
-     359.6,
-     -1220.62
+     1217.6,
+     356.9,
+     -1220.53
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/10"
+   ]
+  },
+  {
+   "id": "KB-B07",
+   "name_de": "Tempelzimmer / Rotunde am Gartenende der Galerie (Granitsaal)",
+   "cls": "PAV",
+   "confidence": "med",
+   "eaves_h": 357.2,
+   "ridge_h": 359.83,
+   "bbox_local": [
+    [
+     1270.52,
+     347.93,
+     -1233.99
+    ],
+    [
+     1289.48,
+     359.83,
+     -1222.67
     ]
    ],
    "sources_de": [
@@ -226,7 +273,7 @@
     ],
     [
      1256.08,
-     362.65,
+     364.07,
      -924.6
     ]
    ],
@@ -238,7 +285,7 @@
   },
   {
    "id": "KB-B11",
-   "name_de": "Orangerie, Nordflügel (Komödienhaus/Theatersaal 1783?)",
+   "name_de": "Orangerie, Nordflügel",
    "cls": "ORANG",
    "confidence": "low",
    "eaves_h": 348.4,
@@ -251,7 +298,7 @@
     ],
     [
      1278.85,
-     353.43,
+     355.87,
      -997.22
     ]
    ],
@@ -263,7 +310,7 @@
   },
   {
    "id": "KB-B12",
-   "name_de": "Orangerie, Südflügel",
+   "name_de": "Orangerie, Südflügel mit Komödienhaus (ab 1783)",
    "cls": "ORANG",
    "confidence": "low",
    "eaves_h": 348.4,
@@ -276,7 +323,7 @@
     ],
     [
      1313.23,
-     353.43,
+     355.87,
      -926.69
     ]
    ],
@@ -287,28 +334,27 @@
    ]
   },
   {
-   "id": "KB-B13",
-   "name_de": "Rotunde / Rundbau an der Orangerie (1785)",
-   "cls": "PAV",
+   "id": "KB-B12a",
+   "name_de": "Komödienhaus (Anbau am Südflügel der Orangerie, ab 1783)",
+   "cls": "RANGE1",
    "confidence": "low",
-   "eaves_h": 350.3,
-   "ridge_h": 358.7,
+   "eaves_h": 347.8,
+   "ridge_h": 352.1,
    "bbox_local": [
     [
-     1248.73,
-     338.05,
-     -986.28
+     1264.95,
+     340.33,
+     -933.99
     ],
     [
-     1277.27,
-     358.7,
-     -957.72
+     1287.91,
+     354.25,
+     -917.89
     ]
    ],
    "sources_de": [
-    "Recherche research/01",
-    "Recherche research/03",
-    "Fuerstenwaerther 1786 (dilibri, PD)"
+    "Recherche research/10",
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
    ]
   },
   {
@@ -326,7 +372,7 @@
     ],
     [
      1198.04,
-     355.32,
+     357.84,
      -1379.58
     ]
    ],
@@ -351,7 +397,7 @@
     ],
     [
      1249,
-     355.32,
+     357.84,
      -1477.57
     ]
    ],
@@ -376,7 +422,7 @@
     ],
     [
      1255.97,
-     361.91,
+     365.34,
      -1421.39
     ]
    ],
@@ -388,21 +434,21 @@
   },
   {
    "id": "KB-B23",
-   "name_de": "Zwinger (Hundezwinger?)",
+   "name_de": "Hundezwinger",
    "cls": "GARD",
-   "confidence": "low",
+   "confidence": "med",
    "eaves_h": 346.49,
    "ridge_h": 346.49,
    "bbox_local": [
     [
-     1182.48,
+     1182.26,
      342.55,
-     -1594.55
+     -1594.78
     ],
     [
-     1250.52,
-     346.79,
-     -1548.05
+     1250.74,
+     346.92,
+     -1547.82
     ]
    ],
    "sources_de": [
@@ -426,7 +472,7 @@
     ],
     [
      1198.61,
-     358.5,
+     361.73,
      -1593.96
     ]
    ],
@@ -451,7 +497,7 @@
     ],
     [
      1244.62,
-     357.67,
+     360.54,
      -1793.69
     ]
    ],
@@ -476,7 +522,7 @@
     ],
     [
      1267.28,
-     356.33,
+     359.2,
      -1772.27
     ]
    ],
@@ -495,14 +541,14 @@
    "ridge_h": 350.1,
    "bbox_local": [
     [
-     1178.95,
+     1178.72,
      343.33,
-     -1366.05
+     -1366.28
     ],
     [
-     1263.05,
-     350.4,
-     -1225.95
+     1263.28,
+     351.42,
+     -1225.72
     ]
    ],
    "sources_de": [
@@ -513,26 +559,50 @@
   },
   {
    "id": "KB-B28",
-   "name_de": "Eiskeller",
-   "cls": "GARD",
-   "confidence": "high",
-   "eaves_h": 356.5,
-   "ridge_h": 356.5,
+   "name_de": "Pavillon zu Carlsberg (Hypothese nach Schneider; alias: Eiskeller)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 363.7,
+   "ridge_h": 367.2,
    "bbox_local": [
     [
-     1502.95,
+     1501.82,
      353.53,
-     -1301.05
+     -1301.3
     ],
     [
-     1513.05,
-     356.8,
-     -1290.95
+     1513.3,
+     368.87,
+     -1290.7
     ]
    ],
    "sources_de": [
     "Recherche research/03",
-    "Recherche research/01"
+    "Recherche research/01",
+    "Recherche research/11"
+   ]
+  },
+  {
+   "id": "KB-B28a",
+   "name_de": "Apsis des Pavillons zu Carlsberg (Hypothese)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 359.7,
+   "ridge_h": 361.72,
+   "bbox_local": [
+    [
+     1510.14,
+     353.52,
+     -1299.14
+    ],
+    [
+     1515.86,
+     361.72,
+     -1292.86
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/11"
    ]
   },
   {
@@ -550,7 +620,7 @@
     ],
     [
      530.3,
-     269.61,
+     272.48,
      -784.71
     ]
    ],
@@ -575,7 +645,7 @@
     ],
     [
      513.25,
-     275.77,
+     279.2,
      -931.46
     ]
    ],
@@ -600,7 +670,7 @@
     ],
     [
      541.65,
-     271.92,
+     275.35,
      -947.2
     ]
    ],
@@ -624,7 +694,7 @@
     ],
     [
      515.01,
-     272.78,
+     276.21,
      -1000.4
     ]
    ],
@@ -648,7 +718,7 @@
     ],
     [
      541.4,
-     270.86,
+     274.08,
      -1005.17
     ]
    ],
@@ -672,7 +742,7 @@
     ],
     [
      1247.3,
-     355.46,
+     358.03,
      -1373.57
     ]
    ],
@@ -696,7 +766,7 @@
     ],
     [
      1237.03,
-     355.46,
+     358.03,
      -1532.28
     ]
    ],
@@ -720,7 +790,7 @@
     ],
     [
      1236.05,
-     355.01,
+     357.4,
      -1487.78
     ]
    ],
@@ -743,7 +813,7 @@
     ],
     [
      1235.02,
-     355.01,
+     357.4,
      -1398.77
     ]
    ],
@@ -766,7 +836,7 @@
     ],
     [
      1223.74,
-     351.36,
+     352.29,
      -1570.97
     ]
    ],
@@ -790,7 +860,7 @@
     ],
     [
      1245.06,
-     355.17,
+     357.4,
      -1758
     ]
    ],
@@ -814,7 +884,7 @@
     ],
     [
      1180.92,
-     349.74,
+     350.67,
      -1095.28
     ]
    ],
@@ -839,7 +909,7 @@
     ],
     [
      1176.32,
-     350.13,
+     351.06,
      -1116.89
     ]
    ],
@@ -888,13 +958,14 @@
     ],
     [
      1195.46,
-     357.23,
+     359.69,
      -1217.63
     ]
    ],
    "sources_de": [
     "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
-    "Recherche research/07"
+    "Recherche research/07",
+    "Recherche research/09"
    ]
   },
   {
@@ -912,13 +983,14 @@
     ],
     [
      1272.12,
-     353.49,
+     355.97,
      -845.64
     ]
    ],
    "sources_de": [
     "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
-    "Recherche research/07"
+    "Recherche research/07",
+    "Recherche research/09"
    ]
   },
   {
@@ -936,7 +1008,7 @@
     ],
     [
      1253.44,
-     352.08,
+     355.44,
      -721.45
     ]
    ],
@@ -960,7 +1032,7 @@
     ],
     [
      1283.56,
-     354.38,
+     357.57,
      -1484.23
     ]
    ],
@@ -983,7 +1055,7 @@
     ],
     [
      1282.54,
-     349.31,
+     351.99,
      -1583.1
     ]
    ],
@@ -1006,7 +1078,7 @@
     ],
     [
      1283.04,
-     347.39,
+     350.07,
      -1618.86
     ]
    ],
@@ -1029,7 +1101,7 @@
     ],
     [
      1283.44,
-     346.41,
+     349.09,
      -1641.86
     ]
    ],
@@ -1098,7 +1170,7 @@
     ],
     [
      1198.81,
-     357.47,
+     360.32,
      -1687.08
     ]
    ],
@@ -1170,7 +1242,7 @@
     ],
     [
      1276.49,
-     356.65,
+     359.38,
      -1801.08
     ]
    ],
@@ -1194,7 +1266,7 @@
     ],
     [
      1302.6,
-     353.88,
+     356.61,
      -1801
     ]
    ],
@@ -1205,35 +1277,36 @@
   },
   {
    "id": "KB-B54",
-   "name_de": "Treibhaus in der Holländischen Gärtnerei (Ost)",
+   "name_de": "Treibhaus in der Holländischen Gärtnerei (Ost; Ananas, Kaffee, Papaya)",
    "cls": "FARM",
    "confidence": "low",
    "eaves_h": 351.56,
-   "ridge_h": 354.32,
+   "ridge_h": 351.56,
    "bbox_local": [
     [
-     1230.48,
+     1230.8,
      347.11,
-     -1338.12
+     -1337.8
     ],
     [
-     1244.02,
-     354.32,
-     -1323.98
+     1243.51,
+     353.46,
+     -1324.49
     ]
    ],
    "sources_de": [
     "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
-    "Recherche research/07"
+    "Recherche research/07",
+    "Recherche research/11"
    ]
   },
   {
    "id": "KB-B55",
-   "name_de": "Treibhaus in der Holländischen Gärtnerei (Mitte)",
+   "name_de": "Gärtnerwohnung mit Durchgang zwischen den Treibhäusern (Logement?)",
    "cls": "FARM",
    "confidence": "low",
-   "eaves_h": 351.24,
-   "ridge_h": 353.44,
+   "eaves_h": 351.34,
+   "ridge_h": 355.58,
    "bbox_local": [
     [
      1203.46,
@@ -1242,35 +1315,39 @@
     ],
     [
      1212.86,
-     353.44,
+     356.51,
      -1319.26
     ]
    ],
    "sources_de": [
-    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/07",
+    "Recherche research/11"
    ]
   },
   {
    "id": "KB-B56",
-   "name_de": "Treibhaus in der Holländischen Gärtnerei (West)",
+   "name_de": "Treibhaus in der Holländischen Gärtnerei (West; Feigen, Pfirsiche, Melonen)",
    "cls": "FARM",
    "confidence": "low",
    "eaves_h": 351.18,
-   "ridge_h": 354.14,
+   "ridge_h": 351.18,
    "bbox_local": [
     [
-     1179.66,
+     1179.93,
      345.94,
-     -1326.54
+     -1326.26
     ],
     [
-     1192.92,
-     354.14,
-     -1314.37
+     1192.48,
+     353.08,
+     -1314.81
     ]
    ],
    "sources_de": [
-    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
+    "Recherche research/11",
+    "Recherche research/10"
    ]
   },
   {
@@ -1288,7 +1365,7 @@
     ],
     [
      1551.77,
-     326.51,
+     329.62,
      -1906.02
     ]
    ],
@@ -1311,7 +1388,7 @@
     ],
     [
      1548.76,
-     327.73,
+     330.82,
      -1886.94
     ]
    ],
@@ -1334,7 +1411,7 @@
     ],
     [
      1545.76,
-     328.48,
+     331.59,
      -1869.24
     ]
    ],
@@ -1357,7 +1434,7 @@
     ],
     [
      1601.42,
-     322.91,
+     326.34,
      -2030.58
     ]
    ],
@@ -1380,7 +1457,7 @@
     ],
     [
      1545.18,
-     323.59,
+     326.28,
      -2040.22
     ]
    ],
@@ -1403,7 +1480,7 @@
     ],
     [
      1479.19,
-     324.14,
+     327.57,
      -2021.04
     ]
    ],
@@ -1426,13 +1503,14 @@
     ],
     [
      501.61,
-     265.08,
+     266.01,
      -908.26
     ]
    ],
    "sources_de": [
     "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
-    "Recherche research/07"
+    "Recherche research/07",
+    "Recherche research/09"
    ]
   },
   {
@@ -1450,13 +1528,14 @@
     ],
     [
      501.71,
-     264.99,
+     265.92,
      -880.38
     ]
    ],
    "sources_de": [
     "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
-    "Recherche research/07"
+    "Recherche research/07",
+    "Recherche research/09"
    ]
   },
   {
@@ -1474,7 +1553,7 @@
     ],
     [
      520.81,
-     268.47,
+     271.9,
      -1048.68
     ]
    ],
@@ -1497,7 +1576,7 @@
     ],
     [
      521.89,
-     270.39,
+     273.22,
      -1094.51
     ]
    ],
@@ -1521,7 +1600,7 @@
     ],
     [
      598.92,
-     282.94,
+     283.87,
      -1107.35
     ]
    ],
@@ -1544,7 +1623,7 @@
     ],
     [
      530.02,
-     271.26,
+     273.87,
      -1411.07
     ]
    ],
@@ -1568,7 +1647,7 @@
     ],
     [
      518.33,
-     271.69,
+     272.62,
      -1474.77
     ]
    ],
@@ -1592,7 +1671,7 @@
     ],
     [
      514.42,
-     272.29,
+     273.22,
      -1495.58
     ]
    ],
@@ -1616,7 +1695,7 @@
     ],
     [
      488.62,
-     272.11,
+     274.38,
      -1508.15
     ]
    ],
@@ -1640,7 +1719,7 @@
     ],
     [
      484.62,
-     272.01,
+     274.6,
      -1531.67
     ]
    ],
@@ -1664,7 +1743,7 @@
     ],
     [
      305.69,
-     261.54,
+     262.47,
      -1287.74
     ]
    ],
@@ -1688,7 +1767,7 @@
     ],
     [
      293.72,
-     263.58,
+     266.83,
      -1299.64
     ]
    ],
@@ -1712,7 +1791,7 @@
     ],
     [
      272.37,
-     261.76,
+     264.35,
      -1322.33
     ]
    ],
@@ -1736,7 +1815,7 @@
     ],
     [
      705.42,
-     295.15,
+     297.73,
      -886.28
     ]
    ],
@@ -1759,7 +1838,7 @@
     ],
     [
      1501.42,
-     361.29,
+     364.72,
      -1041.05
     ]
    ],
@@ -1782,7 +1861,7 @@
     ],
     [
      1613.06,
-     360.09,
+     362.54,
      -913.85
     ]
    ],
@@ -1805,7 +1884,7 @@
     ],
     [
      834.52,
-     301.41,
+     303.08,
      -1088.38
     ]
    ],
@@ -1851,7 +1930,7 @@
     ],
     [
      1144.11,
-     317.36,
+     319.03,
      -937.46
     ]
    ],
@@ -1874,7 +1953,7 @@
     ],
     [
      639.22,
-     282.66,
+     284.33,
      -895.58
     ]
    ],
@@ -1897,7 +1976,7 @@
     ],
     [
      1811.59,
-     364.34,
+     366.01,
      -280.5
     ]
    ],
@@ -1920,7 +1999,7 @@
     ],
     [
      1666.15,
-     370.65,
+     373.96,
      -408.41
     ]
    ],
@@ -1943,7 +2022,7 @@
     ],
     [
      1758.97,
-     368.29,
+     371.72,
      -320.82
     ]
    ],
@@ -1967,7 +2046,7 @@
     ],
     [
      1579.22,
-     366.9,
+     370.18,
      -324.18
     ]
    ],
@@ -1976,22 +2055,138 @@
    ]
   },
   {
+   "id": "KB-B87",
+   "name_de": "Rundpavillon mit gestufter Kuppel (Herzogsgarten, später „Eremitage“)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 351.35,
+   "ridge_h": 355.34,
+   "bbox_local": [
+    [
+     1299.46,
+     345.83,
+     -1082.22
+    ],
+    [
+     1309.11,
+     355.34,
+     -1071.5
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/11"
+   ]
+  },
+  {
+   "id": "KB-B88",
+   "name_de": "Runder Pavillon über dem Hirschwürzloch (Prinzenlusthaus?)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 335.57,
+   "ridge_h": 338.93,
+   "bbox_local": [
+    [
+     1688.95,
+     328.98,
+     -1137.3
+    ],
+    [
+     1697.39,
+     338.93,
+     -1128.96
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/11"
+   ]
+  },
+  {
+   "id": "KB-B89",
+   "name_de": "Monopteros am Westende des Karlsbergweihers (Hypothese)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 282.97,
+   "ridge_h": 282.97,
+   "bbox_local": [
+    [
+     828.33,
+     278.29,
+     -917.67
+    ],
+    [
+     835.67,
+     286.77,
+     -910.33
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/10"
+   ]
+  },
+  {
+   "id": "KB-B90",
+   "name_de": "Bienenhaus (Hypothese, Zone SO der Orangerie)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 348.27,
+   "ridge_h": 348.27,
+   "bbox_local": [
+    [
+     1325.4,
+     345.14,
+     -963.78
+    ],
+    [
+     1330.64,
+     348.37,
+     -959.98
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/10",
+    "Recherche research/01"
+   ]
+  },
+  {
+   "id": "KB-B91",
+   "name_de": "Wassermaschine (Maschinenhaus, Hypothese)",
+   "cls": "FARM",
+   "confidence": "low",
+   "eaves_h": 336.82,
+   "ridge_h": 339.6,
+   "bbox_local": [
+    [
+     1087.68,
+     330.54,
+     -1321.5
+    ],
+    [
+     1096.32,
+     339.6,
+     -1314.5
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/10"
+   ]
+  },
+  {
    "id": "KL-B40",
-   "name_de": "Amphitheater (Rundbau mit 19 halbrunden Käfigen und Loge, „Bärenzwinger“)",
+   "name_de": "Amphitheater (Menagerie-Rund mit 19 schiefergedeckten Tierhäusern und Loge, „Bärenzwinger“)",
    "cls": "GARD",
    "confidence": "med",
    "eaves_h": 301.5,
    "ridge_h": 301.5,
    "bbox_local": [
     [
-     1908.03,
-     295.2,
-     60.03
+     1908.14,
+     296.95,
+     59.55
     ],
     [
-     1961.97,
-     301.8,
-     113.97
+     1961.86,
+     308.4,
+     113.86
     ]
    ],
    "sources_de": [
@@ -2002,11 +2197,36 @@
   },
   {
    "id": "KL-B41",
-   "name_de": "Pavillon auf der Insel im Amphitheater",
-   "cls": "PAV",
+   "name_de": "Insel im Amphitheater mit den Fundamenten des Inselpavillons und Wendeltreppe",
+   "cls": "GARD",
+   "confidence": "med",
+   "eaves_h": 299.46,
+   "ridge_h": 299.46,
+   "bbox_local": [
+    [
+     1929.92,
+     297.67,
+     81.92
+    ],
+    [
+     1940.08,
+     301.45,
+     92.08
+    ]
+   ],
+   "sources_de": [
+    "Web: de.wikipedia.org",
+    "Recherche research/03",
+    "Recherche research/10"
+   ]
+  },
+  {
+   "id": "KL-B41a",
+   "name_de": "Inselpavillon der Menagerie – Aufbau (Hypothese)",
+   "cls": "GARD",
    "confidence": "low",
-   "eaves_h": 302.96,
-   "ridge_h": 305.76,
+   "eaves_h": 303.45,
+   "ridge_h": 306.25,
    "bbox_local": [
     [
      1930.7,
@@ -2015,13 +2235,12 @@
     ],
     [
      1939.3,
-     305.76,
+     306.46,
      91.3
     ]
    ],
    "sources_de": [
-    "Web: de.wikipedia.org",
-    "Recherche research/03"
+    "Recherche research/10"
    ]
   },
   {
@@ -2051,21 +2270,21 @@
   },
   {
    "id": "KL-B43",
-   "name_de": "Menagerie (Herzogsterrassen mit eisernen Bären-Kästen)",
+   "name_de": "Menagerie (Herzogsterrassen mit Reihen von Tierhäusern)",
    "cls": "GARD",
    "confidence": "low",
    "eaves_h": 298.27,
    "ridge_h": 298.27,
    "bbox_local": [
     [
-     1961.94,
+     1962.07,
      286.34,
-     49.95
+     50.12
     ],
     [
-     2112.06,
-     298.57,
-     278.06
+     2111.92,
+     303.42,
+     277.92
     ]
    ],
    "sources_de": [
@@ -2083,7 +2302,7 @@
    "ridge_h": 294.44,
    "bbox_local": [
     [
-     2151,
+     2151.01,
      285.59,
      337.75
     ],
@@ -2107,14 +2326,14 @@
    "ridge_h": 281.11,
    "bbox_local": [
     [
-     1923.95,
-     271.39,
-     278.95
+     1923.87,
+     272.57,
+     278.87
     ],
     [
-     1936.05,
-     281.41,
-     291.05
+     1936.13,
+     283.62,
+     291.13
     ]
    ],
    "sources_de": [
@@ -2138,13 +2357,14 @@
     ],
     [
      1838.32,
-     318.38,
+     320.05,
      58.82
     ]
    ],
    "sources_de": [
     "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)",
-    "Recherche research/05"
+    "Recherche research/05",
+    "Recherche research/10"
    ]
   },
   {
@@ -2162,7 +2382,7 @@
     ],
     [
      1801.84,
-     331.03,
+     332.7,
      16.22
     ]
    ],
@@ -2185,7 +2405,7 @@
     ],
     [
      1777.36,
-     319.24,
+     320.91,
      58.62
     ]
    ],
@@ -2194,26 +2414,99 @@
    ]
   },
   {
-   "id": "KL-B49",
-   "name_de": "Hymenäostempel (Standort, 1785)",
+   "id": "KL-B50",
+   "name_de": "Chinesischer Pavillon („Chinoise“, Hypothese)",
    "cls": "PAV",
    "confidence": "low",
-   "eaves_h": 291.6,
-   "ridge_h": 294.16,
+   "eaves_h": 265.48,
+   "ridge_h": 265.48,
    "bbox_local": [
     [
-     1805.9,
-     285.11,
-     366.3
+     1940.29,
+     261.2,
+     347.29
     ],
     [
-     1817.5,
-     294.16,
-     378
+     1949.71,
+     270.03,
+     356.71
     ]
    ],
    "sources_de": [
-    "Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)"
+    "Recherche research/11",
+    "Recherche research/10"
+   ]
+  },
+  {
+   "id": "KL-B51",
+   "name_de": "Türkisches Zelt (Hypothese)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 310.32,
+   "ridge_h": 310.32,
+   "bbox_local": [
+    [
+     1892.58,
+     305.7,
+     38.58
+    ],
+    [
+     1901.42,
+     313.08,
+     47.42
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/11",
+    "Recherche research/10"
+   ]
+  },
+  {
+   "id": "KL-B52",
+   "name_de": "Heuwagen (Staffage, Hypothese)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 319.85,
+   "ridge_h": 319.85,
+   "bbox_local": [
+    [
+     1845.16,
+     316.71,
+     12.57
+    ],
+    [
+     1853.28,
+     320.18,
+     15.5
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/11",
+    "Recherche research/10"
+   ]
+  },
+  {
+   "id": "KL-B53",
+   "name_de": "Volierenpavillon (Hypothese)",
+   "cls": "PAV",
+   "confidence": "low",
+   "eaves_h": 304.85,
+   "ridge_h": 304.85,
+   "bbox_local": [
+    [
+     1865.05,
+     300.48,
+     68.4
+    ],
+    [
+     1878.95,
+     307.08,
+     73.6
+    ]
+   ],
+   "sources_de": [
+    "Recherche research/11",
+    "Recherche research/10"
    ]
   }
  ]
