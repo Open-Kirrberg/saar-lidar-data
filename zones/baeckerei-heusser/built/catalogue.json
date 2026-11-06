@@ -1,0 +1,1016 @@
+{
+ "schema": "sle-zone-catalogue-v1",
+ "consent": {
+  "prices": true
+ },
+ "objects": {
+  "fassade/schaufenster": {
+   "name_de": "Schaufenster",
+   "info_de": "Durch die beiden Schaufenster schaust du von der Straße direkt in den Laden."
+  },
+  "fassade/glasbausteine": {
+   "name_de": "Glasbausteine",
+   "info_de": "Eine Wand aus Glasbausteinen im Flechtverband: Sie lässt Licht herein, aber niemand schaut hindurch. Findest du die grünen und blauen Steine?"
+  },
+  "fassade/wandmalerei": {
+   "name_de": "Wandbild am Giebel",
+   "info_de": "Am Giebel hängt ein Wandbild: ein Backofen mit Brot und zwei Brotschiebern, darunter steht „Bäckerei Heinrich Heusser seit 1933“."
+  },
+  "fassade/schlussstein-1": {
+   "name_de": "Schlussstein mit Brezel",
+   "info_de": "Schau mal nach oben: Über dem Schaufenster ist eine Brezel in den Sandstein gehauen, das alte Zeichen der Bäcker."
+  },
+  "fassade/schlussstein-2": {
+   "name_de": "Schlussstein",
+   "info_de": "Auf diesem Schlussstein steht „H.H. 1933“, so wie „Heinrich Heusser“ und „seit 1933“ auf dem Wandbild am Giebel."
+  },
+  "fassade/ausleger-schild": {
+   "name_de": "Ausleger-Schild",
+   "info_de": "Das Schild an der Hauswand zeigt dir schon von Weitem den Weg zur Bäckerei: ein Backofen mit Brot."
+  },
+  "verkaufsraum/ladentuer": {
+   "name_de": "Ladentür",
+   "info_de": "Die automatische Schiebetür aus Glas öffnet sich zum Vorbau mit den Stufen."
+  },
+  "theke": {
+   "name_de": "Verkaufstheke",
+   "info_de": "Die Verkaufstheke: hinter Glas liegen Kuchen und Teilchen, oben auf der Glasabdeckung hängen die Brezeln. Vorne läuft eine rosa-graue Granitablage entlang."
+  },
+  "theke/vitrine": {
+   "name_de": "Glasvitrine",
+   "info_de": "In der gekühlten Glasvitrine liegen unten Kuchen und Torten, auf dem Glasboden darüber die Teilchen.",
+   "group": "theke"
+  },
+  "theke/kasse": {
+   "name_de": "Kasse",
+   "info_de": "Hier bezahlst du deinen Einkauf.",
+   "group": "theke"
+  },
+  "theke/brezelstaender": {
+   "name_de": "Brezelständer",
+   "info_de": "Am Holzständer hängen die Brezeln an zwei Querarmen, frisch zum Mitnehmen.",
+   "group": "theke"
+  },
+  "theke/kuchenhaube": {
+   "name_de": "Kuchenhaube",
+   "info_de": "Unter der Haube bleibt Kuchen frisch und geschützt.",
+   "group": "theke"
+  },
+  "brotregal": {
+   "name_de": "Brotregal",
+   "info_de": "Das Brotregal hinter der Theke: oben drei schräge Stangenböden für die Brote, darunter sechs Körbe für die Brötchen."
+  },
+  "brotregal/koerbe": {
+   "name_de": "Brotkörbe",
+   "info_de": "Sechs Weidenkörbe mit himbeerrosa Tüchern: Hier liegen morgens die Brötchen.",
+   "group": "brotregal"
+  },
+  "gitterregal": {
+   "name_de": "Gitterregal",
+   "info_de": "Im Chromregal am Schaufenster stehen Brote in Papiertüten zum Mitnehmen."
+  },
+  "wuerfelregal": {
+   "name_de": "Würfelregal",
+   "info_de": "Im weißen Würfelregal hinter der Theke stehen Becher, Tassen und Sirup für den Kaffee."
+  },
+  "kaffeemaschine": {
+   "name_de": "Kaffeevollautomat",
+   "info_de": "Der Automat mahlt die Bohnen für jede Tasse frisch."
+  },
+  "brotschneidemaschine": {
+   "name_de": "Brotschneidemaschine",
+   "info_de": "Die Maschine schneidet dein Brot in gleichmäßige Scheiben."
+  },
+  "waermevitrine": {
+   "name_de": "Wärmevitrine",
+   "info_de": "In der kleinen beheizten Glasvitrine bleibt Warmes warm."
+  },
+  "zeitungsaufsteller": {
+   "name_de": "Zeitungsaufsteller",
+   "info_de": "Die Tageszeitung zum Mitnehmen."
+  },
+  "getraenkekuehlschrank": {
+   "name_de": "Getränkekühlschrank",
+   "info_de": "Kalte Getränke zum Mitnehmen."
+  },
+  "dosenregal": {
+   "name_de": "Regal mit Gläsern und Dosen",
+   "info_de": "Im dunklen Holzregal stehen Gläser, Dosen, Soßen, Kaffee und Eier zum Mitnehmen."
+  },
+  "bistrotisch-1": {
+   "name_de": "Bistrotisch",
+   "info_de": "Ein runder Bistrotisch mit zwei Stühlen am Schaufenster, für einen Kaffee zwischendurch."
+  },
+  "bistrotisch-2": {
+   "name_de": "Bistrotisch",
+   "info_de": "Ein quadratischer Bistrotisch mit zwei Stühlen in der Café-Ecke."
+  },
+  "schaufensterdeko-1": {
+   "name_de": "Schaufenster-Deko",
+   "info_de": "Kürbisse auf grünem Filz und eine Blumengirlande: die Herbstdeko im Schaufenster."
+  },
+  "schaufensterdeko-2": {
+   "name_de": "Schaufenster-Deko",
+   "info_de": "Sonnenblumen und Kürbisse auf grünem Filz, darüber eine Blumengirlande: die Herbstdeko im Schaufenster."
+  },
+  "bilderwand": {
+   "name_de": "Alte Bilder",
+   "info_de": "Alte Fotos und Zeichnungen aus der Geschichte der Bäckerei, darunter ein Gruppenfoto von 1946. Hier siehst du sie nur als Rahmen."
+  }
+ },
+ "products": {
+  "kornbrot-500g": {
+   "name_de": "Kornbrot 500g",
+   "short_de": "Kernig & saftig — unser Kornbrot mit vollem Getreidegeschmack.",
+   "info_de": "Unser Kornbrot 500g wird aus ausgewählten Getreidekörnern nach traditionellem Rezept gebacken. Die knusprige Kruste und die saftige, aromatische Krume machen es zum perfekten Begleiter für jede Mahlzeit. Täglich frisch aus unserer Backstube.",
+   "category": "brot",
+   "price_eur": 2.5,
+   "sale_unit": "Laib"
+  },
+  "kornbrot-1000g": {
+   "name_de": "Kornbrot 1000g",
+   "short_de": "Kernig & saftig — unser Kornbrot, für den großen Hunger.",
+   "info_de": "Unser Kornbrot 1000g — dasselbe bewährte Rezept, nur für mehr Genuss. Voller Körner, voller Aroma, täglich frisch gebacken. Ideal für die ganze Familie.",
+   "category": "brot",
+   "price_eur": 4.4,
+   "sale_unit": "Laib"
+  },
+  "mischbrot-500g": {
+   "name_de": "Mischbrot 500g",
+   "short_de": "Kräftig & mild zugleich — das klassische Mischbrot.",
+   "info_de": "Unser Mischbrot 500g vereint Roggen und Weizen zu einem harmonischen Geschmack. Eine leichte Säure vom Sauerteig, eine saftige Krume — genau so, wie Brot sein soll.",
+   "category": "brot",
+   "price_eur": 2.5,
+   "sale_unit": "Laib"
+  },
+  "mischbrot-1000g": {
+   "name_de": "Mischbrot 1000g",
+   "short_de": "Kräftig & mild zugleich — das klassische Mischbrot in groß.",
+   "info_de": "Unser Mischbrot 1000g: die große Variante unseres Klassikers für alle, die auf gutes Brot nicht verzichten möchten. Täglich frisch gebacken, hält es mehrere Tage.",
+   "category": "brot",
+   "price_eur": 4.4,
+   "sale_unit": "Laib"
+  },
+  "holzluken-500g": {
+   "name_de": "Holzluken 500g",
+   "short_de": "Rustikal & herzhaft — das Holzluken-Brot aus der Steinbackform.",
+   "info_de": "Das Holzluken 500g bekommt seinen unverwechselbaren Charakter durch die besondere Backform. Die dunkle, rösche Kruste umhüllt eine saftige, würzige Krume — ein echter Genuss.",
+   "category": "brot",
+   "price_eur": 2.9,
+   "sale_unit": "Laib"
+  },
+  "holzluken-750g": {
+   "name_de": "Holzluken 750g",
+   "short_de": "Rustikal & herzhaft — das Holzluken-Brot für die ganze Woche.",
+   "info_de": "Das Holzluken 750g: mehr vom Guten. Großartig zu Käse, Wurst oder einfach mit Butter. Täglich frisch aus unserer Backstube.",
+   "category": "brot",
+   "price_eur": 4.0,
+   "sale_unit": "Laib"
+  },
+  "bergsteiger-500g": {
+   "name_de": "Bergsteiger 500g",
+   "short_de": "Kräftig & vollwertig — Brot für aktive Menschen.",
+   "info_de": "Der Bergsteiger 500g ist unser Brot für alle, die Power brauchen. Vollkorn, Körner und Sauerteig sorgen für anhaltende Energie und vollen Geschmack.",
+   "category": "brot",
+   "price_eur": 2.9,
+   "sale_unit": "Laib"
+  },
+  "bergsteiger-750g": {
+   "name_de": "Bergsteiger 750g",
+   "short_de": "Kräftig & vollwertig — der Bergsteiger in der großen Version.",
+   "info_de": "Der Bergsteiger 750g: für alle, die viel vorhaben. Vollwertig, sättigend und unglaublich aromatisch. Einfach gut.",
+   "category": "brot",
+   "price_eur": 4.0,
+   "sale_unit": "Laib"
+  },
+  "sommerkorn-500g": {
+   "name_de": "Sommerkorn 500g",
+   "short_de": "Leicht & aromatisch — unser Sommerkorn für warme Tage.",
+   "info_de": "Das Sommerkorn 500g ist unser leichteres Brot mit feinen Körnern und einem milden Aroma. Perfekt für den Sommer, aber das ganze Jahr beliebt.",
+   "category": "brot",
+   "price_eur": 2.9,
+   "sale_unit": "Laib"
+  },
+  "sommerkorn-750g": {
+   "name_de": "Sommerkorn 750g",
+   "short_de": "Leicht & aromatisch — das Sommerkorn in groß.",
+   "info_de": "Das Sommerkorn 750g: mehr Genuss für die ganze Familie. Mild, körnig und täglich frisch gebacken.",
+   "category": "brot",
+   "price_eur": 4.0,
+   "sale_unit": "Laib"
+  },
+  "biker-500g": {
+   "name_de": "Biker 500g",
+   "short_de": "Kernig & herzhaft — das Biker-Brot für echte Genießer.",
+   "info_de": "Unser Biker 500g ist ein kräftiges Vollkornbrot mit Biss. Saftig, aromatisch und voller Körner — perfekt für alle, die wissen, was gutes Brot ausmacht.",
+   "category": "brot",
+   "price_eur": 2.9,
+   "sale_unit": "Laib"
+  },
+  "biker-750g": {
+   "name_de": "Biker 750g",
+   "short_de": "Kernig & herzhaft — das Biker-Brot in der großen Version.",
+   "info_de": "Das Biker 750g: unser kerniges Vollkornbrot für mehr Genuss. Täglich frisch, hält es mehrere Tage und wird dabei nur besser.",
+   "category": "brot",
+   "price_eur": 4.0,
+   "sale_unit": "Laib"
+  },
+  "kerbricher-500g": {
+   "name_de": "Kerbricher 500g",
+   "short_de": "Würzig & saftig — das Kerbricher Brot aus unserer Region.",
+   "info_de": "Der Kerbricher 500g ist ein regionales Brot mit Charakter. Kräftig gewürzt, saftig in der Krume — ein Stück Heimat auf dem Teller.",
+   "category": "brot",
+   "price_eur": 2.9,
+   "sale_unit": "Laib"
+  },
+  "kerbricher-750g": {
+   "name_de": "Kerbricher 750g",
+   "short_de": "Würzig & saftig — der Kerbricher in groß.",
+   "info_de": "Der Kerbricher 750g: mehr von unserem regionalen Klassiker. Täglich frisch gebacken und voller Geschmack.",
+   "category": "brot",
+   "price_eur": 4.0,
+   "sale_unit": "Laib"
+  },
+  "haferflocken-500g": {
+   "name_de": "Haferflocken 500g",
+   "short_de": "Zart & gesund — unser Haferflocken-Brot für den bewussten Genuss.",
+   "info_de": "Das Haferflocken 500g ist sanft in der Krume, reich an Ballaststoffen und herrlich aromatisch. Die Haferflocken geben ihm eine besondere Textur und einen milden, nussigen Geschmack.",
+   "category": "brot",
+   "price_eur": 3.2,
+   "sale_unit": "Laib"
+  },
+  "haferflocken-750g": {
+   "name_de": "Haferflocken 750g",
+   "short_de": "Zart & gesund — das Haferflocken-Brot in der großen Version.",
+   "info_de": "Das Haferflocken 750g: mehr vom gesunden Genuss. Täglich frisch und ideal für alle, die bewusst essen möchten.",
+   "category": "brot",
+   "price_eur": 4.4,
+   "sale_unit": "Laib"
+  },
+  "voll-gut-500g": {
+   "name_de": "Voll-Gut 500g",
+   "short_de": "Vollwertig & aromatisch — unser Voll-Gut für volle Energie.",
+   "info_de": "Das Voll-Gut 500g steckt voller guter Dinge: Vollkornmehl, Körner und Sauerteig sorgen für einen tiefen, runden Geschmack und langanhaltende Energie.",
+   "category": "brot",
+   "price_eur": 3.2,
+   "sale_unit": "Laib"
+  },
+  "voll-gut-750g": {
+   "name_de": "Voll-Gut 750g",
+   "short_de": "Vollwertig & aromatisch — das Voll-Gut in groß.",
+   "info_de": "Das Voll-Gut 750g: die große Portion für alle, die auf Vollwertiges setzen. Täglich frisch und voller natürlicher Güte.",
+   "category": "brot",
+   "price_eur": 4.4,
+   "sale_unit": "Laib"
+  },
+  "schwabenkornt-500g": {
+   "name_de": "Schwabenkorn 500g",
+   "short_de": "Schwäbisch & herzhaft — das Schwabenkorn aus unserer Backstube.",
+   "info_de": "Das Schwabenkorn 500g ist ein kräftiges Schwarzbrot mit schwäbischer Tradition. Roggenmehl und Sauerteig geben ihm einen würzigen, leicht säuerlichen Charakter.",
+   "category": "brot",
+   "price_eur": 3.5,
+   "sale_unit": "Laib"
+  },
+  "schwabenkorn-1000g": {
+   "name_de": "Schwabenkorn 1000g",
+   "short_de": "Schwäbisch & herzhaft — das Schwabenkorn im ganzen Laib.",
+   "info_de": "Das Schwabenkorn 1000g: der ganze Laib für Freunde des kräftigen Brotes. Täglich frisch und lange haltbar.",
+   "category": "brot",
+   "price_eur": 6.0,
+   "sale_unit": "Laib"
+  },
+  "feel-happy-500g": {
+   "name_de": "Feel Happy 500g",
+   "short_de": "Voller Lebensfreude — unser Feel Happy Brot.",
+   "info_de": "Das Feel Happy 500g ist unser besonderes Brot — mit ausgewählten Zutaten für ein gutes Gefühl. Mild, saftig und voller positiver Energie. Einfach gut.",
+   "category": "brot",
+   "price_eur": 4.2,
+   "sale_unit": "Laib"
+  },
+  "hildegard-von-bingen-500g": {
+   "name_de": "Hildegard von Bingen 500g",
+   "short_de": "Traditionsreich & aromatisch — nach dem Rezept der heiligen Hildegard.",
+   "info_de": "Das Hildegard von Bingen 500g basiert auf alten Rezepten und besonderen Zutaten wie Dinkel und Gewürzen. Ein Brot mit Geschichte und vollem, rundem Geschmack.",
+   "category": "brot",
+   "price_eur": 3.5,
+   "sale_unit": "Laib"
+  },
+  "hildegard-von-bingen-750g": {
+   "name_de": "Hildegard von Bingen 750g",
+   "short_de": "Traditionsreich & aromatisch — der große Hildegard von Bingen.",
+   "info_de": "Das Hildegard von Bingen 750g: mehr vom heilsamen Traditionsrezept. Täglich frisch, nachhaltig sättigend und wunderbar im Geschmack.",
+   "category": "brot",
+   "price_eur": 4.6,
+   "sale_unit": "Laib"
+  },
+  "koenig-ludwig-500g": {
+   "name_de": "König Ludwig 500g",
+   "short_de": "Edel & vollwertig — das König Ludwig Brot aus unserer Backstube.",
+   "info_de": "Der König Ludwig 500g ist ein edles Roggenmischbrot mit würzigem Charakter. Saftig, aromatisch und mit einer rösche Kruste — majestätischer Genuss.",
+   "category": "brot",
+   "price_eur": 3.5,
+   "sale_unit": "Laib"
+  },
+  "koenig-ludwig-750g": {
+   "name_de": "König Ludwig 750g",
+   "short_de": "Edel & vollwertig — der König Ludwig in groß.",
+   "info_de": "Der König Ludwig 750g: der große Genuss für alle Kenner. Täglich frisch und voller königlichem Aroma.",
+   "category": "brot",
+   "price_eur": 4.6,
+   "sale_unit": "Laib"
+  },
+  "kasten-weissbrot": {
+   "name_de": "Kasten Weißbrot",
+   "short_de": "Weich & zart — unser Kasten-Weißbrot für jeden Tag.",
+   "info_de": "Das Kasten-Weißbrot ist fluffig, saftig und vielseitig. Perfekt für Toasts, Sandwiches oder einfach mit Butter — ein täglicher Begleiter aus unserer Backstube.",
+   "category": "baguette",
+   "price_eur": 3.4,
+   "sale_unit": "Laib"
+  },
+  "baguette-klein": {
+   "name_de": "Baguette klein",
+   "short_de": "Knusprig & luftig — die kleine Baguette für Zwischendurch.",
+   "info_de": "Unser kleines Baguette ist außen rösch, innen fluffig und täglich frisch gebacken. Perfekt zur Suppe, zum Käse oder einfach so.",
+   "category": "baguette",
+   "price_eur": 2.2,
+   "sale_unit": "Stück"
+  },
+  "baguette-gross": {
+   "name_de": "Baguette groß",
+   "short_de": "Knusprig & luftig — das große Baguette für den großen Hunger.",
+   "info_de": "Unser großes Baguette: außen rösch, innen weich — ein französischer Klassiker aus unserer Backstube. Täglich frisch, herrlich aromatisch.",
+   "category": "baguette",
+   "price_eur": 3.4,
+   "sale_unit": "Stück"
+  },
+  "roggenflit-klein": {
+   "name_de": "Roggenflit klein",
+   "short_de": "Würzig & knusprig — der kleine Roggenflit aus unserer Backstube.",
+   "info_de": "Der Roggenflit klein ist unser rustikales Roggenbaguette mit kräftigem Charakter. Knusprige Kruste, saftige Krume — perfekt zu Käse und Wurst.",
+   "category": "baguette",
+   "price_eur": 2.6,
+   "sale_unit": "Stück"
+  },
+  "roggenflit-gross": {
+   "name_de": "Roggenflit groß",
+   "short_de": "Würzig & knusprig — der große Roggenflit für echte Liebhaber.",
+   "info_de": "Der Roggenflit groß: mehr vom würzigen Roggenbaguette. Täglich frisch und ideal für alle, die es etwas herzhafter mögen.",
+   "category": "baguette",
+   "price_eur": 4.6,
+   "sale_unit": "Stück"
+  },
+  "doppelweck": {
+   "name_de": "Doppelweck",
+   "short_de": "Doppelt gut — unser Doppelweck, knusprig und frisch.",
+   "info_de": "Der Doppelweck ist ein Brötchen-Klassiker: zwei zusammengewachsene Hälften mit röschem Boden und lockerer Krume. Ideal zum Frühstück oder als Snack.",
+   "category": "broetchen",
+   "price_eur": 0.8,
+   "sale_unit": "Stück"
+  },
+  "samstagsweck": {
+   "name_de": "Samstagsweck",
+   "short_de": "Besonders am Samstag — unser Samstagsweck frisch aus dem Ofen.",
+   "info_de": "Der Samstagsweck ist unser Wochenend-Highlight: besonders knusprig, besonders aromatisch. Am Samstag frisch gebacken — der perfekte Start ins Wochenende.",
+   "category": "broetchen",
+   "price_eur": 0.8,
+   "sale_unit": "Stück"
+  },
+  "sternweck": {
+   "name_de": "Sternweck",
+   "short_de": "Zart & goldbraun — unser Sternweck für besondere Momente.",
+   "info_de": "Der Sternweck glänzt mit seiner besonderen Form und der zarten, goldbraunen Kruste. Locker und fluffig — ein echter Hingucker auf dem Frühstückstisch.",
+   "category": "broetchen",
+   "price_eur": 0.6,
+   "sale_unit": "Stück"
+  },
+  "flitweck": {
+   "name_de": "Flitweck",
+   "short_de": "Leicht & luftig — der Flitweck aus unserer Backstube.",
+   "info_de": "Der Flitweck ist unser besonders luftiges Brötchen — mit feiner Kruste und weichem Inneren. Täglich frisch gebacken und ein Genuss pur.",
+   "category": "broetchen",
+   "price_eur": 0.8,
+   "sale_unit": "Stück"
+  },
+  "elsaesser": {
+   "name_de": "Elsässer",
+   "short_de": "Klassisch elsässisch — unser Elsässer Brötchen mit Tradition.",
+   "info_de": "Der Elsässer bringt elsässische Backkunst in unsere Backstube: zarte Kruste, feines Aroma und eine besondere Form. Täglich frisch gebacken.",
+   "category": "broetchen",
+   "price_eur": 0.6,
+   "sale_unit": "Stück"
+  },
+  "knusperweck": {
+   "name_de": "Knusperweck",
+   "short_de": "Rösch & knusprig — der Knusperweck für Knusperliebhaber.",
+   "info_de": "Der Knusperweck ist genau das, was der Name verspricht: besonders knusprig, besonders rösch. Täglich frisch und ein Muss für alle Brötchen-Liebhaber.",
+   "category": "broetchen",
+   "price_eur": 0.6,
+   "sale_unit": "Stück"
+  },
+  "roggenweck": {
+   "name_de": "Roggenweck",
+   "short_de": "Kräftig & aromatisch — der Roggenweck für Roggen-Fans.",
+   "info_de": "Unser Roggenweck hat den vollen Roggengeschmack, den man sich wünscht. Leicht säuerlich, saftig und mit einer kräftigen Kruste — ein echter Genuss.",
+   "category": "broetchen",
+   "price_eur": 0.7,
+   "sale_unit": "Stück"
+  },
+  "koernerweck": {
+   "name_de": "Körnerweck",
+   "short_de": "Vollwertig & knusprig — der Körnerweck mit Biss.",
+   "info_de": "Der Körnerweck steckt voller Körner — Sonnenblumenkerne, Kürbiskerne und mehr geben ihm einen herrlich nussigen Geschmack und extra Biss.",
+   "category": "broetchen",
+   "price_eur": 0.8,
+   "sale_unit": "Stück"
+  },
+  "mohn-broetchen": {
+   "name_de": "Mohn-Brötchen",
+   "short_de": "Zart & aromatisch — das Mohn-Brötchen mit blauem Hauch.",
+   "info_de": "Unser Mohn-Brötchen besticht durch seinen zarten Mohngeschmack und die schöne blaue Haube. Täglich frisch und ein echter Hingucker auf dem Tisch.",
+   "category": "broetchen",
+   "price_eur": 0.7,
+   "sale_unit": "Stück"
+  },
+  "sesam-broetchen": {
+   "name_de": "Sesam-Brötchen",
+   "short_de": "Nussig & knusprig — das Sesam-Brötchen mit Charakter.",
+   "info_de": "Das Sesam-Brötchen trägt seinen nussigen Sesam-Mantel mit Stolz. Außen rösch, innen weich — ein Brötchen mit Charakter.",
+   "category": "broetchen",
+   "price_eur": 0.7,
+   "sale_unit": "Stück"
+  },
+  "kuemmel-broetchen": {
+   "name_de": "Kümmel-Brötchen",
+   "short_de": "Würzig & aromatisch — das Kümmel-Brötchen für Würze-Liebhaber.",
+   "info_de": "Unser Kümmel-Brötchen ist für alle, die es etwas würziger mögen. Der feine Kümmelgeschmack passt perfekt zu Käse, Wurst oder einfach mit Butter.",
+   "category": "broetchen",
+   "price_eur": 0.7,
+   "sale_unit": "Stück"
+  },
+  "dinkel-broetchen": {
+   "name_de": "Dinkel-Brötchen",
+   "short_de": "Nussig & vollwertig — das Dinkel-Brötchen aus echtem Dinkel.",
+   "info_de": "Das Dinkel-Brötchen überzeugt mit feinem Nussaroma und vollwertigen Zutaten. Leicht und bekömmlich — für alle, die etwas Besonderes suchen.",
+   "category": "broetchen",
+   "price_eur": 0.85,
+   "sale_unit": "Stück"
+  },
+  "mohn-hoernchen": {
+   "name_de": "Mohn-Hörnchen",
+   "short_de": "Süß & luftig — das Mohn-Hörnchen als kleiner Genuss.",
+   "info_de": "Unser Mohn-Hörnchen vereint zarten Mohn mit luftigem Teig zu einem kleinen Genuss. Perfekt zum Kaffee oder als süßer Snack für Zwischendurch.",
+   "category": "broetchen",
+   "price_eur": 1.2,
+   "sale_unit": "Stück"
+  },
+  "sesam-hoernchen": {
+   "name_de": "Sesam-Hörnchen",
+   "short_de": "Nussig & luftig — das Sesam-Hörnchen als kleiner Genuss.",
+   "info_de": "Das Sesam-Hörnchen ist unser nussiges Croissant mit Sesamkruste. Außen knusprig, innen zart — ein herrlicher kleiner Genuss.",
+   "category": "broetchen",
+   "price_eur": 1.2,
+   "sale_unit": "Stück"
+  },
+  "kaese-broetchen": {
+   "name_de": "Käse-Brötchen",
+   "short_de": "Herzhaft & käsig — das Käse-Brötchen für Käse-Liebhaber.",
+   "info_de": "Unser Käse-Brötchen ist mit echtem Käse überbacken und duftet herrlich aus dem Ofen. Herzhaft, würzig und täglich frisch — perfekt als Snack oder zum Mittagessen.",
+   "category": "broetchen",
+   "price_eur": 1.2,
+   "sale_unit": "Stück"
+  },
+  "brezel": {
+   "name_de": "Brezel",
+   "short_de": "Goldbraun & salzig — die Brezel, wie sie sein soll.",
+   "info_de": "Unsere Brezel ist klassisch: goldbraun gelaugt, mit grobem Salz bestreut und außen rösch, innen weich. Täglich frisch gebacken — ein schwäbisches Original.",
+   "category": "snacks",
+   "price_eur": 1.0,
+   "sale_unit": "Stück"
+  },
+  "laugenstange": {
+   "name_de": "Laugenstange",
+   "short_de": "Herzhaft & laugig — die Laugenstange für Laugenliebhaber.",
+   "info_de": "Unsere Laugenstange ist das längere Pendant zur Brezel: goldbraun gelaugt, herzhaft salzig und unglaublich aromatisch. Perfekt als Snack oder zum Belegen.",
+   "category": "snacks",
+   "price_eur": 1.0,
+   "sale_unit": "Stück"
+  },
+  "laugenbroetchen": {
+   "name_de": "Laugenbrötchen",
+   "short_de": "Rund & laugig — das Laugenbrötchen als herzhafter Snack.",
+   "info_de": "Das Laugenbrötchen ist außen dunkel und glänzend, innen weich und aromatisch. Mit grobem Salz und der typischen Lauge — ein klassischer Snack.",
+   "category": "snacks",
+   "price_eur": 1.0,
+   "sale_unit": "Stück"
+  },
+  "laugenecke": {
+   "name_de": "Laugenecke",
+   "short_de": "Knusprig & eckig — die Laugenecke als besonderer Snack.",
+   "info_de": "Unsere Laugenecke ist eine besondere Form des Laugengebäcks: eckig, knusprig und mit röschem Boden. Perfekt zum Belegen oder einfach so.",
+   "category": "snacks",
+   "price_eur": 1.89,
+   "sale_unit": "Stück"
+  },
+  "laugencroquette": {
+   "name_de": "Laugencroquette",
+   "short_de": "Rund & luftig — die Laugencroquette als Snack-Highlight.",
+   "info_de": "Die Laugencroquette ist unser rundes Laugengebäck — außen goldbraun, innen luftig weich. Ein besonderer Snack, täglich frisch gebacken.",
+   "category": "snacks",
+   "price_eur": 1.89,
+   "sale_unit": "Stück"
+  },
+  "keimkraft-hoernchen": {
+   "name_de": "Keimkraft-Hörnchen",
+   "short_de": "Lebendig & gesund — das Keimkraft-Hörnchen voller Kraft.",
+   "info_de": "Das Keimkraft-Hörnchen steckt voller gekeimter Körner, die ihm einen besonderen, nussigen Geschmack geben. Vollwertig, lecker und täglich frisch.",
+   "category": "snacks",
+   "price_eur": 1.89,
+   "sale_unit": "Stück"
+  },
+  "kaesestange": {
+   "name_de": "Käsestange",
+   "short_de": "Würzig & käsig — die Käsestange zum Snacken.",
+   "info_de": "Unsere Käsestange ist mit würzigem Käse überbacken und knusprig im Biss. Perfekt als Snack, zum Aperitif oder für die Brotzeit.",
+   "category": "snacks",
+   "price_eur": 2.69,
+   "sale_unit": "Stück"
+  },
+  "kaesestange-mit-schinken": {
+   "name_de": "Käsestange mit Schinken",
+   "short_de": "Herzhaft & doppelt lecker — die Käsestange mit Schinken.",
+   "info_de": "Unsere Käsestange mit Schinken kombiniert würzigen Käse mit herzhaftem Schinken auf knusprigem Gebäck. Täglich frisch und unwiderstehlich gut.",
+   "category": "snacks",
+   "price_eur": 2.69,
+   "sale_unit": "Stück"
+  },
+  "gefuellte-schnecken-schoko-pudding-rosinen-nuss-oder-mohn": {
+   "name_de": "Gefüllte Schnecken (Schoko, Pudding, Rosinen, Nuss oder Mohn)",
+   "short_de": "Süß & gefüllt — unsere Schnecken in fünf köstlichen Varianten.",
+   "info_de": "Unsere gefüllten Schnecken kommen in Schoko, Pudding, Rosinen, Nuss oder Mohn — für jeden Geschmack das Richtige. Luftig, süß und täglich frisch aus dem Ofen.",
+   "category": "teilchen",
+   "price_eur": 2.0,
+   "sale_unit": "Stück"
+  },
+  "plunder-hoernchen": {
+   "name_de": "Plunder-Hörnchen",
+   "short_de": "Blättrig & leicht — das Plunder-Hörnchen als süßer Genuss.",
+   "info_de": "Unser Plunder-Hörnchen ist aus feinem Plunderteig gerollt und herrlich knusprig. Zart, leicht und unwiderstehlich — perfekt zum Kaffee.",
+   "category": "teilchen",
+   "price_eur": 2.0,
+   "sale_unit": "Stück"
+  },
+  "taschen-schleifen": {
+   "name_de": "Taschen & Schleifen",
+   "short_de": "Süß & verspielt — Taschen und Schleifen aus feinem Teig.",
+   "info_de": "Unsere Taschen & Schleifen sind kleine Kunstwerke aus feinem Plunderteig — süß, luftig und täglich frisch. Ein Genuss für Augen und Gaumen.",
+   "category": "teilchen",
+   "price_eur": 2.0,
+   "sale_unit": "Stück"
+  },
+  "kirsch-plotzer": {
+   "name_de": "Kirsch-Plotzer",
+   "short_de": "Saftig & fruchtig — der Kirsch-Plotzer mit echten Kirschen.",
+   "info_de": "Der Kirsch-Plotzer ist ein saftiges Teilchen mit echten Kirschen im Teig oder als Füllung. Fruchtig, süß und unwiderstehlich — ein Stück Sommer das ganze Jahr.",
+   "category": "teilchen",
+   "price_eur": 2.0,
+   "sale_unit": "Stück"
+  },
+  "puddingstueckchen": {
+   "name_de": "Puddingstückchen",
+   "short_de": "Cremig & süß — das Puddingstückchen mit Vanille.",
+   "info_de": "Unser Puddingstückchen ist mit cremigem Vanillepudding gefüllt und aus luftigem Hefeteig. Süß, weich und täglich frisch — ein Klassiker für alle Süßen.",
+   "category": "teilchen",
+   "price_eur": 2.0,
+   "sale_unit": "Stück"
+  },
+  "butterkuchen": {
+   "name_de": "Butterkuchen",
+   "short_de": "Buttrig & süß — der Butterkuchen wie er sein soll.",
+   "info_de": "Unser Butterkuchen ist ein süßes Teilchen mit reichlich Butter und Zucker — knusprig karamellisiert oben, weich und zart innen. Einfach perfekt.",
+   "category": "teilchen",
+   "price_eur": 2.0,
+   "sale_unit": "Stück"
+  },
+  "streusel": {
+   "name_de": "Streusel",
+   "short_de": "Knusprig & süß — der Streusel als kleines Glück.",
+   "info_de": "Unsere Streusel sind das Beste aus Hefeteig und knusprigen Streuseln: süß, buttrig und täglich frisch. Ein kleines Glück aus unserer Backstube.",
+   "category": "teilchen",
+   "price_eur": 1.8,
+   "sale_unit": "Stück"
+  },
+  "schoko-vanille-hoernchen": {
+   "name_de": "Schoko-Vanille-Hörnchen",
+   "short_de": "Schokoladig & vanillig — das Schoko-Vanille-Hörnchen.",
+   "info_de": "Unser Schoko-Vanille-Hörnchen vereint zwei Klassiker in einem: schokoladige und vanillige Füllung in einem luftigen Hörnchen. Täglich frisch und doppelt lecker.",
+   "category": "teilchen",
+   "price_eur": 1.8,
+   "sale_unit": "Stück"
+  },
+  "quarktasche": {
+   "name_de": "Quarktasche",
+   "short_de": "Frisch & cremig — die Quarktasche mit feinem Quark.",
+   "info_de": "Unsere Quarktasche ist mit cremigem, leicht gesüßtem Quark gefüllt — frisch, zart und unglaublich lecker. Täglich frisch aus der Backstube.",
+   "category": "teilchen",
+   "price_eur": 1.8,
+   "sale_unit": "Stück"
+  },
+  "einback": {
+   "name_de": "Einback",
+   "short_de": "Zart & süß — der Einback als klassischer Genuss.",
+   "info_de": "Unser Einback ist ein süßes, leicht gebräuntes Hefebrot — zart, duftend und perfekt zum Dippen oder einfach so. Ein Klassiker aus Großmutters Küche.",
+   "category": "teilchen",
+   "price_eur": 1.2,
+   "sale_unit": "Stück"
+  },
+  "sckokobroetchen": {
+   "name_de": "Schokobrötchen",
+   "short_de": "Schokoladig & weich — das Schokobrötchen für kleine Genießer.",
+   "info_de": "Unser Schokobrötchen ist mit echter Schokolade gefüllt oder verfeinert — weich, süß und täglich frisch. Für große und kleine Schokoladen-Fans.",
+   "category": "teilchen",
+   "price_eur": 1.5,
+   "sale_unit": "Stück"
+  },
+  "rosinenbroetchen": {
+   "name_de": "Rosinenbrötchen",
+   "short_de": "Süß & fruchtig — das Rosinenbrötchen mit ganzen Rosinen.",
+   "info_de": "Unser Rosinenbrötchen steckt voller saftiger Rosinen und duftet herrlich aus dem Ofen. Süß, weich und täglich frisch — ein Klassiker für die ganze Familie.",
+   "category": "teilchen",
+   "price_eur": 1.5,
+   "sale_unit": "Stück"
+  },
+  "croissant": {
+   "name_de": "Croissant",
+   "short_de": "Butterig & blättrig — das Croissant wie in Paris.",
+   "info_de": "Unser Croissant wird aus mehrfach gefaltetem Butterteig gebacken — außen goldbraun und blättrig, innen zart und butterig. Täglich frisch und unwiderstehlich gut.",
+   "category": "teilchen",
+   "price_eur": 1.2,
+   "sale_unit": "Stück"
+  },
+  "pain-chocolate": {
+   "name_de": "Pain au Chocolat",
+   "short_de": "Schokoladig & blättrig — Pain au Chocolat aus echtem Butterteig.",
+   "info_de": "Unser Pain au Chocolat vereint knuspriges Croissant-Gebäck mit echter Schokolade. Ein französischer Klassiker, täglich frisch aus unserer Backstube.",
+   "category": "teilchen",
+   "price_eur": 1.5,
+   "sale_unit": "Stück"
+  },
+  "muffin": {
+   "name_de": "Muffin",
+   "short_de": "Saftig & fluffig — unser Muffin in verschiedenen Sorten.",
+   "info_de": "Unsere Muffins sind saftig, fluffig und täglich frisch gebacken. In verschiedenen Sorten erhältlich — für jeden Geschmack das Richtige.",
+   "category": "teilchen",
+   "price_eur": 1.6,
+   "sale_unit": "Stück"
+  },
+  "granatsplitter": {
+   "name_de": "Granatsplitter",
+   "short_de": "Explosiv & schokoladig — der Granatsplitter als Highlight.",
+   "info_de": "Der Granatsplitter ist unser schokoladiger Überraschungsgenuss: außen dunkel und knusprig, innen eine Explosion aus Schokolade und Sahne. Ein echtes Highlight.",
+   "category": "teilchen",
+   "price_eur": 2.2,
+   "sale_unit": "Stück"
+  },
+  "rahmkuchen": {
+   "name_de": "Rahmkuchen",
+   "short_de": "Cremig & frisch — der Rahmkuchen als ganzer Genuss.",
+   "info_de": "Unser Rahmkuchen ist mit cremiger Rahmmasse belegt und auf einem zarten Boden gebacken. Frisch, leicht süß und täglich frisch — perfekt für besondere Anlässe.",
+   "category": "kuchen",
+   "price_eur": 18.0,
+   "sale_unit": "ganzer Kuchen"
+  },
+  "rahmkuchen-1-stueck": {
+   "name_de": "Rahmkuchen (1 Stück)",
+   "short_de": "Cremig & frisch — das Rahmkuchen-Stück zum Mitnehmen.",
+   "info_de": "Ein Stück vom großen Rahmkuchen — cremig, frisch und zum Mitnehmen. Täglich frisch aus unserer Backstube.",
+   "category": "kuchen",
+   "price_eur": 1.8,
+   "sale_unit": "Stück"
+  },
+  "kaesekuchen": {
+   "name_de": "Käsekuchen",
+   "short_de": "Cremig & mild — der Käsekuchen nach Hausrezept.",
+   "info_de": "Unser Käsekuchen wird nach bewährtem Hausrezept gebacken: cremige Käsemasse auf zartem Mürbteigboden — mild, süß und täglich frisch.",
+   "category": "kuchen",
+   "price_eur": 18.0,
+   "sale_unit": "ganzer Kuchen"
+  },
+  "kaesekuchen-1-stueck": {
+   "name_de": "Käsekuchen (1 Stück)",
+   "short_de": "Cremig & mild — das Käsekuchen-Stück für Zwischendurch.",
+   "info_de": "Ein Stück vom großen Käsekuchen — cremig, mild und zum Mitnehmen. Täglich frisch aus unserer Backstube.",
+   "category": "kuchen",
+   "price_eur": 1.8,
+   "sale_unit": "Stück"
+  },
+  "apfelkuchen": {
+   "name_de": "Apfelkuchen",
+   "short_de": "Fruchtig & saftig — der Apfelkuchen mit echten Äpfeln.",
+   "info_de": "Unser Apfelkuchen ist mit frischen, saftigen Äpfeln belegt und auf einem zarten Teig gebacken. Fruchtig, leicht süß und täglich frisch.",
+   "category": "kuchen",
+   "price_eur": 18.0,
+   "sale_unit": "ganzer Kuchen"
+  },
+  "apfelkuchen-1-stueck": {
+   "name_de": "Apfelkuchen (1 Stück)",
+   "short_de": "Fruchtig & saftig — das Apfelkuchen-Stück zum Mitnehmen.",
+   "info_de": "Ein Stück vom großen Apfelkuchen — fruchtig, saftig und täglich frisch. Das perfekte Stück für Zwischendurch.",
+   "category": "kuchen",
+   "price_eur": 1.8,
+   "sale_unit": "Stück"
+  },
+  "kirschkuchen": {
+   "name_de": "Kirschkuchen",
+   "short_de": "Fruchtig & süß-sauer — der Kirschkuchen mit echten Kirschen.",
+   "info_de": "Unser Kirschkuchen glänzt mit echten Kirschen auf zartem Teig. Fruchtig, leicht säuerlich und täglich frisch gebacken — ein Klassiker aus unserer Backstube.",
+   "category": "kuchen",
+   "price_eur": 18.0,
+   "sale_unit": "ganzer Kuchen"
+  },
+  "kirschkuchen-1-stueck": {
+   "name_de": "Kirschkuchen (1 Stück)",
+   "short_de": "Fruchtig & süß-sauer — das Kirschkuchen-Stück zum Mitnehmen.",
+   "info_de": "Ein Stück vom großen Kirschkuchen — fruchtig, saftig und täglich frisch. Einfach unwiderstehlich.",
+   "category": "kuchen",
+   "price_eur": 1.8,
+   "sale_unit": "Stück"
+  },
+  "blechkuchen": {
+   "name_de": "Blechkuchen",
+   "short_de": "Vielfältig & festlich — der Blechkuchen für besondere Anlässe.",
+   "info_de": "Unser Blechkuchen ist der perfekte Kuchen für Feste, Feiern und Familienfeste. Täglich frisch gebacken und in verschiedenen Sorten erhältlich — gerne auch auf Vorbestellung.",
+   "category": "kuchen",
+   "price_eur": 45.0,
+   "sale_unit": "Blech"
+  },
+  "blechkuchen-1-stueck": {
+   "name_de": "Blechkuchen (1 Stück)",
+   "short_de": "Vielfältig & festlich — das Blechkuchen-Stück zum Probieren.",
+   "info_de": "Ein Stück vom großen Blechkuchen — täglich frisch und herrlich vielfältig. Das perfekte Stück für Neugierige.",
+   "category": "kuchen",
+   "price_eur": 2.2,
+   "sale_unit": "Stück"
+  },
+  "marmorkuchen": {
+   "name_de": "Marmorkuchen",
+   "short_de": "Saftig & schokoladig — der Marmorkuchen nach Hausrezept.",
+   "info_de": "Unser Marmorkuchen ist der Klassiker schlechthin: hell und dunkel marmoriert, saftig, zart und täglich frisch. Ein Stück Heimat aus unserer Backstube.",
+   "category": "kuchen",
+   "price_eur": 18.0,
+   "sale_unit": "ganzer Kuchen"
+  },
+  "marmorkuchen-1-stueck": {
+   "name_de": "Marmorkuchen (1 Stück)",
+   "short_de": "Saftig & schokoladig — das Marmorkuchen-Stück zum Mitnehmen.",
+   "info_de": "Ein Stück vom großen Marmorkuchen — saftig, schokoladig und täglich frisch. Der Klassiker zum Mitnehmen.",
+   "category": "kuchen",
+   "price_eur": 1.2,
+   "sale_unit": "Stück"
+  },
+  "zitronenkuchen": {
+   "name_de": "Zitronenkuchen",
+   "short_de": "Frisch & zitronig — der Zitronenkuchen mit echtem Zitronengeschmack.",
+   "info_de": "Unser Zitronenkuchen ist frisch, fruchtig und wunderbar zitronig. Auf zartem Teig mit echtem Zitronenaroma — eine erfrischende Abwechslung.",
+   "category": "kuchen",
+   "price_eur": 18.0,
+   "sale_unit": "ganzer Kuchen"
+  },
+  "zitronenkuchen-1-stueck": {
+   "name_de": "Zitronenkuchen (1 Stück)",
+   "short_de": "Frisch & zitronig — das Zitronenkuchen-Stück zum Mitnehmen.",
+   "info_de": "Ein Stück vom großen Zitronenkuchen — frisch, zitronig und täglich frisch. Das perfekte erfrischende Stück.",
+   "category": "kuchen",
+   "price_eur": 1.2,
+   "sale_unit": "Stück"
+  },
+  "nusskuchen": {
+   "name_de": "Nusskuchen",
+   "short_de": "Nussig & saftig — der Nusskuchen nach altem Rezept.",
+   "info_de": "Unser Nusskuchen steckt voller gemahlener Nüsse — saftig, aromatisch und unwiderstehlich nussig. Nach bewährtem Hausrezept und täglich frisch gebacken.",
+   "category": "kuchen",
+   "price_eur": 18.0,
+   "sale_unit": "ganzer Kuchen"
+  },
+  "nusskuchen-1-stueck": {
+   "name_de": "Nusskuchen (1 Stück)",
+   "short_de": "Nussig & saftig — das Nusskuchen-Stück zum Mitnehmen.",
+   "info_de": "Ein Stück vom großen Nusskuchen — nussig, saftig und täglich frisch. Ein Muss für alle Nuss-Liebhaber.",
+   "category": "kuchen",
+   "price_eur": 1.2,
+   "sale_unit": "Stück"
+  },
+  "kranzkuchen-ungefuellt": {
+   "name_de": "Kranzkuchen ungefüllt",
+   "short_de": "Luftig & festlich — der ungefüllte Kranzkuchen für besondere Momente.",
+   "info_de": "Unser Kranzkuchen in der ungefüllten Variante ist luftig, saftig und wunderbar aromatisch. Perfekt für Feste oder einfach so — für besondere Momente.",
+   "category": "kuchen",
+   "price_eur": 18.0,
+   "sale_unit": "ganzer Kuchen"
+  },
+  "kranzkuchen-ungefuellt-1-4-stueck": {
+   "name_de": "Kranzkuchen ungefüllt (1/4 Stück)",
+   "short_de": "Luftig & festlich — das Kranzkuchen-Viertel zum Teilen.",
+   "info_de": "Ein Viertel vom großen Kranzkuchen — luftig, saftig und zum Teilen. Täglich frisch aus unserer Backstube.",
+   "category": "kuchen",
+   "price_eur": 4.5,
+   "sale_unit": "1/4"
+  },
+  "kranzkuchen-gefuellt-nuss-schoko-quark-oder-pudding": {
+   "name_de": "Kranzkuchen gefüllt (Nuss, Schoko, Quark oder Pudding)",
+   "short_de": "Luftig & gefüllt — der Kranzkuchen mit deiner Lieblingsfüllung.",
+   "info_de": "Unser Kranzkuchen kommt in vier leckeren Füllungen: Nuss, Schoko, Quark oder Pudding. Für jeden Geschmack die perfekte Wahl — luftig, süß und täglich frisch.",
+   "category": "kuchen",
+   "price_eur": 20.0,
+   "sale_unit": "ganzer Kuchen"
+  },
+  "kranzkuchen-gefuellt-nuss-schoko-quark-oder-pudding-1-4-stueck": {
+   "name_de": "Kranzkuchen gefüllt (Nuss, Schoko, Quark oder Pudding) (1/4 Stück)",
+   "short_de": "Luftig & gefüllt — das Kranzkuchen-Viertel mit Lieblingsfüllung.",
+   "info_de": "Ein Viertel vom gefüllten Kranzkuchen — mit Nuss, Schoko, Quark oder Pudding. Täglich frisch und für jeden Geschmack das Richtige.",
+   "category": "kuchen",
+   "price_eur": 5.0,
+   "sale_unit": "1/4"
+  },
+  "streuselkuchen-gross": {
+   "name_de": "Streuselkuchen groß",
+   "short_de": "Knusprig & süß — der große Streuselkuchen für die Familie.",
+   "info_de": "Unser großer Streuselkuchen ist fluffiger Hefeteig mit knusprigen Streuseln — süß, buttrig und täglich frisch. Der perfekte Kuchen für die ganze Familie.",
+   "category": "kuchen",
+   "price_eur": 12.0,
+   "sale_unit": "ganzer Kuchen"
+  },
+  "streuselkuchen-gross-1-4-stueck": {
+   "name_de": "Streuselkuchen groß (1/4 Stück)",
+   "short_de": "Knusprig & süß — das Streuselkuchen-Viertel zum Mitnehmen.",
+   "info_de": "Ein Viertel vom großen Streuselkuchen — knusprig, süß und täglich frisch. Das perfekte Stück für Streusel-Liebhaber.",
+   "category": "kuchen",
+   "price_eur": 3.0,
+   "sale_unit": "1/4"
+  },
+  "streuselkuchen-klein": {
+   "name_de": "Streuselkuchen klein",
+   "short_de": "Knusprig & süß — der kleine Streuselkuchen für Genießer.",
+   "info_de": "Unser kleiner Streuselkuchen ist ein eigenes kleines Kunstwerk: fluffiger Teig, reichlich Streusel und täglich frisch gebacken. Klein aber fein.",
+   "category": "kuchen",
+   "price_eur": 7.0,
+   "sale_unit": "ganzer Kuchen"
+  },
+  "zopf-ungefuellt": {
+   "name_de": "Zopf ungefüllt",
+   "short_de": "Zart & duftend — der ungefüllte Zopf aus feinem Hefeteig.",
+   "info_de": "Unser Zopf ist aus feinem Hefeteig geflochten — zart, duftend und leicht süß. Täglich frisch und ein Genuss zu jeder Tageszeit.",
+   "category": "kuchen",
+   "price_eur": 7.0,
+   "sale_unit": "Stück"
+  },
+  "zopf-gefuellt-nuss-schoko-quark-oder-pudding": {
+   "name_de": "Zopf gefüllt (Nuss, Schoko, Quark oder Pudding)",
+   "short_de": "Zart & gefüllt — der Zopf mit deiner Lieblingsfüllung.",
+   "info_de": "Unser gefüllter Zopf kommt mit Nuss, Schoko, Quark oder Pudding — und ist damit gleich vier Mal so gut. Luftig, süß und täglich frisch aus dem Ofen.",
+   "category": "kuchen",
+   "price_eur": 10.0,
+   "sale_unit": "Stück"
+  },
+  "rosinenbrot": {
+   "name_de": "Rosinenbrot",
+   "short_de": "Süß & saftig — das Rosinenbrot als klassischer Genuss.",
+   "info_de": "Unser Rosinenbrot ist ein zartes Hefebrot mit vielen saftigen Rosinen. Leicht süß, weich und täglich frisch — ein Klassiker für Frühstück und Kaffeepause.",
+   "category": "kuchen",
+   "price_eur": 9.0,
+   "sale_unit": "Laib"
+  },
+  "obstboden": {
+   "name_de": "Obstboden",
+   "short_de": "Frisch & fruchtig — der Obstboden für deine Lieblingstorte.",
+   "info_de": "Unser Obstboden ist die perfekte Basis für Obsttorten aller Art. Zart, leicht und täglich frisch — bereit für deine Lieblingsfüchte.",
+   "category": "torten",
+   "price_eur": 5.5,
+   "sale_unit": "Stück"
+  },
+  "tortenboden": {
+   "name_de": "Tortenboden",
+   "short_de": "Zart & vielseitig — der Tortenboden für kreative Momente.",
+   "info_de": "Unser Tortenboden ist zart, gleichmäßig und perfekt für jede Torte. Täglich frisch und die ideale Grundlage für deine kreative Tortenkunst.",
+   "category": "torten",
+   "price_eur": 5.5,
+   "sale_unit": "Stück"
+  },
+  "sahnerollen": {
+   "name_de": "Sahnerollen",
+   "short_de": "Cremig & luftig — die Sahnerollen als elegante Köstlichkeit.",
+   "info_de": "Unsere Sahnerollen sind mit frischer Sahne gefüllte Waffelrollen — luftig, cremig und täglich frisch. Eine elegante Köstlichkeit für besondere Momente.",
+   "category": "torten",
+   "price_eur": 20.0,
+   "sale_unit": null
+  },
+  "sahnerollen-1-stueck": {
+   "name_de": "Sahnerollen (1 Stück)",
+   "short_de": "Cremig & luftig — die einzelne Sahnenrolle zum Genießen.",
+   "info_de": "Eine einzelne Sahnenrolle — cremig, luftig und täglich frisch. Der perfekte kleine Genuss für Zwischendurch.",
+   "category": "torten",
+   "price_eur": 2.0,
+   "sale_unit": "Stück"
+  },
+  "schwarzwaelder-kirsch-torte": {
+   "name_de": "Schwarzwälder-Kirsch-Torte",
+   "short_de": "Klassisch & schokoladig — die Schwarzwälder Kirsch Torte nach Tradition.",
+   "info_de": "Unsere Schwarzwälder Kirsch Torte ist ein Klassiker der deutschen Konditorei: Schokolade, Kirschen und Sahne auf mehreren Böden. Täglich frisch und nach bewährtem Rezept.",
+   "category": "torten",
+   "price_eur": 45.0,
+   "sale_unit": "ganze Torte"
+  },
+  "sahne-torte": {
+   "name_de": "Sahne-Torte",
+   "short_de": "Cremig & luftig — die Sahne-Torte für besondere Anlässe.",
+   "info_de": "Unsere Sahne-Torte ist das Herzstück jeder Feier: cremige Sahne auf zarten Böden, festlich und täglich frisch. Gerne auch auf Vorbestellung.",
+   "category": "torten",
+   "price_eur": 36.0,
+   "sale_unit": "ganze Torte"
+  },
+  "buttercreme-torte": {
+   "name_de": "Buttercreme-Torte",
+   "short_de": "Cremig & festlich — die Buttercreme-Torte für Feste.",
+   "info_de": "Unsere Buttercreme-Torte ist reich, cremig und wunderbar festlich. Mit feiner Buttercrème auf zarten Böden — täglich frisch und ein Highlight jeder Feier.",
+   "category": "torten",
+   "price_eur": 45.0,
+   "sale_unit": "ganze Torte"
+  },
+  "buttercreme-rolle": {
+   "name_de": "Buttercreme-Rolle",
+   "short_de": "Cremig & elegant — die Buttercreme-Rolle als besonderer Genuss.",
+   "info_de": "Unsere Buttercreme-Rolle ist ein elegantes Gebäck mit cremiger Buttercrème auf zartem Bisquitboden. Täglich frisch und ein absolutes Highlight.",
+   "category": "torten",
+   "price_eur": 28.0,
+   "sale_unit": "ganze Rolle"
+  }
+ },
+ "discoverable": [
+  "haferflocken-750g",
+  "haferflocken-500g",
+  "voll-gut-750g",
+  "voll-gut-500g",
+  "schwabenkorn-1000g",
+  "schwabenkornt-500g",
+  "feel-happy-500g",
+  "kornbrot-1000g",
+  "kornbrot-500g",
+  "mischbrot-1000g",
+  "mischbrot-500g",
+  "hildegard-von-bingen-750g",
+  "hildegard-von-bingen-500g",
+  "holzluken-750g",
+  "holzluken-500g",
+  "bergsteiger-750g",
+  "bergsteiger-500g",
+  "sommerkorn-750g",
+  "sommerkorn-500g",
+  "biker-750g",
+  "biker-500g",
+  "kerbricher-750g",
+  "kerbricher-500g",
+  "koenig-ludwig-750g",
+  "koenig-ludwig-500g",
+  "baguette-klein",
+  "roggenflit-klein",
+  "roggenflit-gross",
+  "kasten-weissbrot",
+  "doppelweck",
+  "sternweck",
+  "koernerweck",
+  "laugenbroetchen",
+  "roggenweck",
+  "samstagsweck",
+  "brezel",
+  "kranzkuchen-ungefuellt",
+  "kranzkuchen-gefuellt-nuss-schoko-quark-oder-pudding",
+  "kaesekuchen-1-stueck",
+  "apfelkuchen",
+  "schwarzwaelder-kirsch-torte",
+  "blechkuchen",
+  "croissant",
+  "gefuellte-schnecken-schoko-pudding-rosinen-nuss-oder-mohn",
+  "plunder-hoernchen",
+  "streusel",
+  "kirsch-plotzer",
+  "buttercreme-rolle",
+  "fassade/glasbausteine",
+  "fassade/wandmalerei",
+  "fassade/schlussstein-1",
+  "fassade/schlussstein-2",
+  "fassade/ausleger-schild",
+  "theke",
+  "theke/kasse",
+  "theke/brezelstaender",
+  "brotregal",
+  "brotregal/koerbe",
+  "gitterregal",
+  "wuerfelregal",
+  "kaffeemaschine",
+  "brotschneidemaschine",
+  "waermevitrine",
+  "getraenkekuehlschrank",
+  "dosenregal",
+  "bistrotisch-1",
+  "bilderwand"
+ ]
+}

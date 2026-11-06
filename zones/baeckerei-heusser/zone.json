@@ -1,0 +1,281 @@
+{
+ "format": "sle-zone-v1",
+ "id": "baeckerei-heusser",
+ "kind": "captured",
+ "name_de": "B\u00e4ckerei Heusser",
+ "summary_de": "Die B\u00e4ckerei in Kirrberg zum Hineingehen: von der Stra\u00dfe \u00fcber die Stufen in den Verkaufsraum. Nachgebaut nach Raumplan, LoD2 und einem Handvideo, mit Erlaubnis der Inhaber.",
+ "crs": "EPSG:25832",
+ "heightDatum": "DHHN2016",
+ "origin": {
+  "E0": 381467,
+  "N0": 5462254
+ },
+ "footprint": [
+  [
+   381510.9,
+   5462256.1
+  ],
+  [
+   381510.2,
+   5462263.5
+  ],
+  [
+   381508.0,
+   5462270.7
+  ],
+  [
+   381504.5,
+   5462277.2
+  ],
+  [
+   381499.8,
+   5462283.0
+  ],
+  [
+   381494.0,
+   5462287.7
+  ],
+  [
+   381487.4,
+   5462291.2
+  ],
+  [
+   381480.3,
+   5462293.4
+  ],
+  [
+   381472.9,
+   5462294.1
+  ],
+  [
+   381465.5,
+   5462293.4
+  ],
+  [
+   381458.4,
+   5462291.2
+  ],
+  [
+   381451.8,
+   5462287.7
+  ],
+  [
+   381446.0,
+   5462283.0
+  ],
+  [
+   381441.3,
+   5462277.2
+  ],
+  [
+   381437.8,
+   5462270.7
+  ],
+  [
+   381435.6,
+   5462263.5
+  ],
+  [
+   381434.9,
+   5462256.1
+  ],
+  [
+   381435.6,
+   5462248.7
+  ],
+  [
+   381437.8,
+   5462241.6
+  ],
+  [
+   381441.3,
+   5462235.0
+  ],
+  [
+   381446.0,
+   5462229.2
+  ],
+  [
+   381451.8,
+   5462224.5
+  ],
+  [
+   381458.4,
+   5462221.0
+  ],
+  [
+   381465.5,
+   5462218.8
+  ],
+  [
+   381472.9,
+   5462218.1
+  ],
+  [
+   381480.3,
+   5462218.8
+  ],
+  [
+   381487.4,
+   5462221.0
+  ],
+  [
+   381494.0,
+   5462224.5
+  ],
+  [
+   381499.8,
+   5462229.2
+  ],
+  [
+   381504.5,
+   5462235.0
+  ],
+  [
+   381508.0,
+   5462241.6
+  ],
+  [
+   381510.2,
+   5462248.7
+  ]
+ ],
+ "portals": [
+  {
+   "id": "strasse",
+   "label_de": "B\u00e4ckerei betreten",
+   "E": 381480.98,
+   "N": 5462254.44,
+   "h": null,
+   "radius_m": 40.0,
+   "facing_deg": 115.7,
+   "spawn": "strasse"
+  }
+ ],
+ "spawns": {
+  "strasse": {
+   "E": 381480.98,
+   "N": 5462254.44,
+   "h": 245.25,
+   "heading_deg": 295.7,
+   "pitch_deg": -4,
+   "mode": "gehen"
+  }
+ },
+ "exit": {
+  "rule": "restore"
+ },
+ "runtime": {
+  "kind": "gltf"
+ },
+ "assets": [
+  {
+   "id": "twin",
+   "role": "scene",
+   "bboxLocal": [
+    [
+     -32.1,
+     239.52,
+     -40.11
+    ],
+    [
+     43.9,
+     260.21,
+     35.89
+    ]
+   ],
+   "lods": [
+    {
+     "path": "built/twin.glb",
+     "until_m": null,
+     "bytes": 2665584,
+     "triangles": 118975
+    }
+   ]
+  },
+  {
+   "id": "nav",
+   "role": "collider",
+   "bboxLocal": [
+    [
+     -10.25,
+     242.79,
+     -26.22
+    ],
+    [
+     24.25,
+     246.25,
+     30.54
+    ]
+   ],
+   "lods": [
+    {
+     "path": "built/nav.glb",
+     "until_m": null,
+     "bytes": 45144,
+     "triangles": 2688
+    }
+   ]
+  }
+ ],
+ "preset": {
+  "look": "natur",
+  "sky": "shared",
+  "trees": "none",
+  "timeOfDay": "now"
+ },
+ "attribution": [
+  "Nachbau B\u00e4ckerei Heusser, Kirrberg, mit Erlaubnis der Inhaber, eigenes Werk",
+  "LoD2-Geb\u00e4ude und DGM1 \u00a9 GeoBasis-DE/LVGL-SL (2026), dl-de/by-2-0",
+  "Stra\u00dfen \u00a9 OpenStreetMap-Mitwirkende, ODbL"
+ ],
+ "evidence": {
+  "kind": "capture",
+  "confidence": "med",
+  "perPart": "extras",
+  "sources_de": [
+   "Raumplan v0 aus LoD2 und Handvideo (Ma\u00dfe \u00b1 11 %, bis zum Aufma\u00df)",
+   "LoD2-Geb\u00e4ude und DGM1 (GeoBasis-DE/LVGL-SL)",
+   "Stra\u00dfen und Gehwege aus OpenStreetMap",
+   "Handvideo (nur zum Einmessen, nicht enthalten)"
+  ],
+  "disclaimer_de": "Nachbau, kein Foto: Ma\u00dfe aus Raumplan und Video (\u00b1 11 % bis zum Aufma\u00df), Einrichtung vereinfacht. Privatbereiche sind nicht dargestellt."
+ },
+ "capture": {
+  "date": "2026-11-04",
+  "method": "photogrammetry-mesh",
+  "georef": {
+   "method": "lod2-walls+dgm1",
+   "controlPoints": 1,
+   "rmsError_m": 0.16
+  },
+  "privacy": "Kennzeichen und Personen vor der Rekonstruktion unscharf, Nahaufnahmen von Personen verworfen, ein Beinfragment im Laden aus der Textur entfernt, privater Teil des Durchgangs (Hauseingang) abgeschnitten",
+  "scale": {
+   "factor": 1.0,
+   "pivotLocal": [
+    8.39,
+    243.51,
+    -4.97
+   ],
+   "metresPerUnit": 1.4595,
+   "source": "camera-height",
+   "relUncertainty": 0.111
+  }
+ },
+ "budget": {
+  "downloadBytes": 2710728,
+  "totalBytes": 2760307,
+  "triangles": 118975,
+  "textureBytesGpu": 0
+ },
+ "generated": "2026-11-05T01:46:54Z",
+ "generator": "tools/capture package + twin",
+ "twin": {
+  "method": "built-from-plan",
+  "plan": "sle-raumplan/0.1",
+  "planVersion": "v0",
+  "catalogue": "built/catalogue.json",
+  "scaleFactor": 1.0,
+  "nav": "nav"
+ }
+}

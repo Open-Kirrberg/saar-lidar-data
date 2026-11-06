@@ -1,0 +1,18 @@
+{
+  "format": "sle-zones-v1",
+  "zones": [
+    {
+      "id": "baeckerei-heusser",
+      "bboxEN": [
+        [
+          381433,
+          5462217
+        ],
+        [
+          381512,
+          5462296
+        ]
+      ]
+    }
+  ]
+}
