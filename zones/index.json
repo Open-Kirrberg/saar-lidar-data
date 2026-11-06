@@ -2,6 +2,19 @@
   "format": "sle-zones-v1",
   "zones": [
     {
+      "id": "schloss-karlsberg",
+      "bboxEN": [
+        [
+          381240,
+          5464575
+        ],
+        [
+          383295,
+          5467070
+        ]
+      ]
+    },
+    {
       "id": "baeckerei-heusser",
       "bboxEN": [
         [
