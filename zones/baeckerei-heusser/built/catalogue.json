@@ -12,6 +12,14 @@
    "name_de": "Glasbausteine",
    "info_de": "Eine Wand aus Glasbausteinen im Flechtverband: Sie lässt Licht herein, aber niemand schaut hindurch. Findest du die grünen und blauen Steine?"
   },
+  "fassade/backstube-eingang": {
+   "name_de": "Eingang zur Backstube",
+   "info_de": "Links an der Fassade führen Terrazzostufen in einer Nische hinauf zu einer Aluminiumtür mit Riffelglas. Dahinter liegt die Backstube, in der gebacken wird – die Tür bleibt für dich zu."
+  },
+  "fassade/abholschrank": {
+   "name_de": "Abholschrank",
+   "info_de": "Gleich um die Ecke vom Eingang steht im Durchgang die Abholstation: ein grauer Schrank mit Lamellentüren und schwarzem Griffband. Hier kannst du dir Backwaren zurücklegen lassen und sie auch nach Ladenschluss abholen."
+  },
   "fassade/wandmalerei": {
    "name_de": "Wandbild am Giebel",
    "info_de": "Am Giebel hängt ein Wandbild: ein Backofen mit Brot und zwei Brotschiebern, darunter steht „Bäckerei Heinrich Heusser seit 1933“."
@@ -21,8 +29,8 @@
    "info_de": "Schau mal nach oben: Über dem Schaufenster ist eine Brezel in den Sandstein gehauen, das alte Zeichen der Bäcker."
   },
   "fassade/schlussstein-2": {
-   "name_de": "Schlussstein",
-   "info_de": "Auf diesem Schlussstein steht „H.H. 1933“, so wie „Heinrich Heusser“ und „seit 1933“ auf dem Wandbild am Giebel."
+   "name_de": "Schlussstein mit Inschrift",
+   "info_de": "Auf diesem Schlussstein steht in Frakturschrift „H.H.“ und darunter „AD 1933“, so wie „Heinrich Heusser“ und „seit 1933“ auf dem Wandbild am Giebel."
   },
   "fassade/ausleger-schild": {
    "name_de": "Ausleger-Schild",
@@ -58,7 +66,7 @@
   },
   "brotregal": {
    "name_de": "Brotregal",
-   "info_de": "Das Brotregal hinter der Theke: oben drei schräge Stangenböden für die Brote, darunter sechs Körbe für die Brötchen."
+   "info_de": "Das Brotregal hinter der Theke: oben vier schräge Stangenböden für die Brote, darunter sechs Körbe für die Brötchen. An den unteren Böden stecken die Preiskärtchen."
   },
   "brotregal/koerbe": {
    "name_de": "Brotkörbe",
@@ -115,7 +123,7 @@
   },
   "bilderwand": {
    "name_de": "Alte Bilder",
-   "info_de": "Alte Fotos und Zeichnungen aus der Geschichte der Bäckerei, darunter ein Gruppenfoto von 1946. Hier siehst du sie nur als Rahmen."
+   "info_de": "Alte Fotos und Zeichnungen aus der Geschichte der Bäckerei seit 1933, darunter ein Gruppenfoto von 1946. Im Nachbau sind sie als einfache Zeichnungen angedeutet: Weizenähren, das alte Haus und ein Backofen."
   }
  },
  "products": {
@@ -945,19 +953,20 @@
   }
  },
  "discoverable": [
-  "haferflocken-750g",
-  "haferflocken-500g",
-  "voll-gut-750g",
-  "voll-gut-500g",
-  "schwabenkorn-1000g",
-  "schwabenkornt-500g",
-  "feel-happy-500g",
   "kornbrot-1000g",
   "kornbrot-500g",
   "mischbrot-1000g",
   "mischbrot-500g",
   "hildegard-von-bingen-750g",
   "hildegard-von-bingen-500g",
+  "schwabenkorn-1000g",
+  "schwabenkornt-500g",
+  "haferflocken-750g",
+  "haferflocken-500g",
+  "voll-gut-750g",
+  "voll-gut-500g",
+  "feel-happy-500g",
+  "kasten-weissbrot",
   "holzluken-750g",
   "holzluken-500g",
   "bergsteiger-750g",
@@ -970,10 +979,9 @@
   "kerbricher-500g",
   "koenig-ludwig-750g",
   "koenig-ludwig-500g",
-  "baguette-klein",
   "roggenflit-klein",
+  "baguette-klein",
   "roggenflit-gross",
-  "kasten-weissbrot",
   "doppelweck",
   "sternweck",
   "koernerweck",
@@ -994,6 +1002,8 @@
   "kirsch-plotzer",
   "buttercreme-rolle",
   "fassade/glasbausteine",
+  "fassade/backstube-eingang",
+  "fassade/abholschrank",
   "fassade/wandmalerei",
   "fassade/schlussstein-1",
   "fassade/schlussstein-2",
@@ -1012,5 +1022,188 @@
   "dosenregal",
   "bistrotisch-1",
   "bilderwand"
- ]
+ ],
+ "fills": {
+  "default": "morgens",
+  "states": [
+   {
+    "id": "morgens",
+    "name_de": "Morgens",
+    "info_de": "Kurz nach dem Öffnen: Brote dicht an dicht auf den vier Stangenböden, Brötchen in den Körben, Brezeln am Ständer, Kuchen, Torten und Teilchen in der Vitrine.",
+    "products": [
+     "kornbrot-1000g",
+     "kornbrot-500g",
+     "mischbrot-1000g",
+     "mischbrot-500g",
+     "hildegard-von-bingen-750g",
+     "hildegard-von-bingen-500g",
+     "schwabenkorn-1000g",
+     "schwabenkornt-500g",
+     "haferflocken-750g",
+     "haferflocken-500g",
+     "voll-gut-750g",
+     "voll-gut-500g",
+     "feel-happy-500g",
+     "kasten-weissbrot",
+     "holzluken-750g",
+     "holzluken-500g",
+     "bergsteiger-750g",
+     "bergsteiger-500g",
+     "sommerkorn-750g",
+     "sommerkorn-500g",
+     "biker-750g",
+     "biker-500g",
+     "kerbricher-750g",
+     "kerbricher-500g",
+     "koenig-ludwig-750g",
+     "koenig-ludwig-500g",
+     "roggenflit-klein",
+     "baguette-klein",
+     "roggenflit-gross",
+     "doppelweck",
+     "sternweck",
+     "koernerweck",
+     "laugenbroetchen",
+     "roggenweck",
+     "samstagsweck",
+     "brezel",
+     "kranzkuchen-ungefuellt",
+     "kranzkuchen-gefuellt-nuss-schoko-quark-oder-pudding",
+     "kaesekuchen-1-stueck",
+     "apfelkuchen",
+     "schwarzwaelder-kirsch-torte",
+     "blechkuchen",
+     "croissant",
+     "gefuellte-schnecken-schoko-pudding-rosinen-nuss-oder-mohn",
+     "plunder-hoernchen",
+     "streusel",
+     "kirsch-plotzer",
+     "buttercreme-rolle"
+    ]
+   },
+   {
+    "id": "feierabend",
+    "name_de": "Feierabend",
+    "info_de": "Nach Ladenschluss: Regale, Körbe und Vitrine sind leer, so wie im Rundgang-Video.",
+    "products": []
+   }
+  ]
+ },
+ "tour": {
+  "name_de": "Kleine Führung",
+  "stops": [
+   {
+    "id": "giebel",
+    "title_de": "Das Wandbild am Giebel",
+    "text_de": "Das ist das Haus der Bäckerei Heusser in der Eckstraße in Kirrberg. Am Giebel hängt ein Wandbild: ein Backofen mit Brot und zwei Brotschiebern, darunter steht „Bäckerei Heinrich Heusser seit 1933“.",
+    "target": "fassade/wandmalerei",
+    "eye": [
+     -8.6,
+     245.0,
+     25.0
+    ],
+    "look": [
+     -4.39,
+     249.4,
+     16.23
+    ]
+   },
+   {
+    "id": "eingang",
+    "title_de": "Schaufenster und Schlusssteine",
+    "text_de": "Über den Schaufenstern sitzen zwei Schlusssteine aus Sandstein: einer mit einer Brezel, dem alten Zeichen der Bäcker, und einer mit „H.H.“ und „AD 1933“ in Frakturschrift. Durch die Schaufenster schaust du schon von der Straße in den Laden.",
+    "target": "fassade/schlussstein-2",
+    "eye": [
+     11.6,
+     245.2,
+     1.5
+    ],
+    "look": [
+     6.4,
+     246.0,
+     -0.9
+    ],
+    "via": [
+     [
+      -1.3,
+      20.9
+     ]
+    ]
+   },
+   {
+    "id": "theke",
+    "title_de": "Die Verkaufstheke",
+    "text_de": "Hinter dem Glas der Theke liegen Kuchen und Teilchen, oben hängen die Brezeln am Holzständer. Hier an der Kasse bezahlst du deinen Einkauf.",
+    "target": "theke",
+    "eye": [
+     6.0,
+     245.9,
+     -0.6
+    ],
+    "look": [
+     3.9,
+     245.0,
+     -1.8
+    ],
+    "via": [
+     [
+      8.4,
+      -4.15
+     ],
+     [
+      6.1,
+      -4.15
+     ]
+    ]
+   },
+   {
+    "id": "brotregal",
+    "title_de": "Das Brotregal",
+    "text_de": "Hinter der Theke liegen morgens die Brote dicht an dicht auf vier schrägen Stangenböden, darunter die Brötchen in sechs Weidenkörben. An den Preiskärtchen siehst du, was ein Brot kostet. Klick oder tipp ein Brot an: Die Karte zeigt dir mehr.",
+    "target": "brotregal",
+    "eye": [
+     5.6,
+     245.9,
+     -1.0
+    ],
+    "look": [
+     2.3,
+     245.7,
+     -1.1
+    ]
+   },
+   {
+    "id": "cafe",
+    "title_de": "Die Café-Ecke",
+    "text_de": "Am Schaufenster und in der Café-Ecke stehen zwei Bistrotische mit Stühlen, für einen Kaffee zwischendurch. Den macht der Vollautomat hinter der Theke: Er mahlt die Bohnen für jede Tasse frisch.",
+    "target": "bistrotisch-2",
+    "eye": [
+     5.6,
+     245.9,
+     -0.6
+    ],
+    "look": [
+     5.0,
+     244.7,
+     -4.6
+    ]
+   },
+   {
+    "id": "bilder",
+    "title_de": "Alte Bilder",
+    "text_de": "An der Wand hängen alte Fotos und Zeichnungen aus der Geschichte der Bäckerei, darunter ein Gruppenfoto von 1946. Im Nachbau sind sie als einfache Zeichnungen angedeutet. Jetzt bist du dran: Was entdeckst du noch?",
+    "target": "bilderwand",
+    "eye": [
+     5.3,
+     245.9,
+     -3.5
+    ],
+    "look": [
+     3.23,
+     245.67,
+     -4.33
+    ]
+   }
+  ]
+ }
 }

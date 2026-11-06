@@ -188,8 +188,8 @@
     {
      "path": "built/twin.glb",
      "until_m": null,
-     "bytes": 2665584,
-     "triangles": 118975
+     "bytes": 3237272,
+     "triangles": 151967
     }
    ]
   },
@@ -212,8 +212,8 @@
     {
      "path": "built/nav.glb",
      "until_m": null,
-     "bytes": 45144,
-     "triangles": 2688
+     "bytes": 46296,
+     "triangles": 2764
     }
    ]
   }
@@ -263,9 +263,9 @@
   }
  },
  "budget": {
-  "downloadBytes": 2710728,
-  "totalBytes": 2760307,
-  "triangles": 118975,
+  "downloadBytes": 3283568,
+  "totalBytes": 3338511,
+  "triangles": 151967,
   "textureBytesGpu": 0
  },
  "generated": "2026-11-05T01:46:54Z",
