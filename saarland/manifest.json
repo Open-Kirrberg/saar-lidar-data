@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "kind": "stats-only",
+  "aoi": "saarland",
+  "name": "Saarland – Gemeinden im Vergleich",
+  "crs": "EPSG:25832",
+  "stats": {
+    "format": "sle-stats-v1",
+    "url": "stats/places.json",
+    "geometry": "stats/places.geojson",
+    "generated": "2026-11-08T20:33:36Z",
+    "places": 54,
+    "label_de": "Gemeinden im Vergleich",
+    "level": "gemeinde"
+  },
+  "stats_levels": {
+    "format": "sle-stats-levels-v1",
+    "levels": [
+      {
+        "level": "gemeinde",
+        "aoi": "saarland",
+        "label_de": "Gemeinden"
+      },
+      {
+        "level": "ortsteil",
+        "aoi": "overall",
+        "label_de": "Ortsteile"
+      }
+    ]
+  },
+  "attribution": "© BKG (2026) CC BY 4.0 (Daten verändert), Datenquellen: https://sgx.geodatenzentrum.de/web_public/gdz/datenquellen/datenquellen_vg25.pdf (VG25); Zensus 2022, © Statistische Ämter des Bundes und der Länder, dl-de/by-2-0, Daten bearbeitet; Baumarten: DLR, Tree Species Germany 2022 (Wegler et al. 2025), CC BY 4.0, doi:10.15489/smh8w3j8i962, Daten bearbeitet (umprojiziert); Marktstammdatenregister – © Bundesnetzagentur für Elektrizität, Gas, Telekommunikation, Post und Eisenbahnen, dl-de/by-2-0, Daten bearbeitet; GBIF.org (2026-11-08) GBIF Occurrence Search, https://www.gbif.org; © GeoBasis-DE/LVGL-SL (2026), dl-de/by-2-0, Daten bearbeitet (LoD2); © GeoBasis-DE/LVermGeoRP (2026), dl-de/by-2-0, www.lvermgeo.rlp.de, Daten bearbeitet (LoD2); © GeoBasis-DE/LVGL-SL (2026), dl-de/by-2-0, Daten bearbeitet; © GeoBasis-DE/LVermGeoRP (2026), dl-de/by-2-0, www.lvermgeo.rlp.de, Daten bearbeitet"
+}
