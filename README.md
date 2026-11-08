@@ -29,7 +29,7 @@ The code is MIT-licensed (see the code repository). **The data keep their own li
 Attribution entries (also in `ATTRIBUTION`):
 
 - © GeoBasis-DE/LVGL-SL (2026), dl-de/by-2-0, Daten bearbeitet
-- © GeoBasis-DE/LVermGeoRP (2022), dl-de/by-2-0, www.lvermgeo.rlp.de, Daten bearbeitet
+- © GeoBasis-DE/LVermGeoRP (2026), dl-de/by-2-0, www.lvermgeo.rlp.de, Daten bearbeitet
 - © OpenStreetMap-Mitwirkende, ODbL
 - © GeoBasis-DE/LVGL-SL (2026), dl-de/by-2-0 (ALKIS)
 - © GeoBasis-DE/LVermGeoRP (2026), dl-de/by-2-0, www.lvermgeo.rlp.de, Daten bearbeitet (ALKIS)
@@ -37,6 +37,14 @@ Attribution entries (also in `ATTRIBUTION`):
 - © GeoBasis-DE/LVermGeoRP (2026), dl-de/by-2-0, www.lvermgeo.rlp.de, Daten bearbeitet (LoD2)
 - © GeoBasis-DE/LVGL-SL (2026), dl-de/by-2-0 (DOP20)
 - © GeoBasis-DE/LVGL-SL (2026), dl-de/by-2-0, Daten bearbeitet (Historische Karten)
+- © GeoBasis-DE/LVermGeoRP (2026), dl-de/by-2-0, www.lvermgeo.rlp.de, Daten bearbeitet (DOP20)
+- © GeoBasis-DE/LVGL-SL (2026), dl-de/by-2-0 (DOP20 CIR)
+- © GeoBasis-DE/LVermGeoRP (2026), dl-de/by-2-0, www.lvermgeo.rlp.de, Daten bearbeitet (DOP20 RGBI)
+- Zensus 2022, © Statistische Ämter des Bundes und der Länder, dl-de/by-2-0, Daten bearbeitet
+- Marktstammdatenregister – © Bundesnetzagentur für Elektrizität, Gas, Telekommunikation, Post und Eisenbahnen, dl-de/by-2-0, Daten bearbeitet
+- Baumarten: DLR, Tree Species Germany 2022 (Wegler et al. 2025), CC BY 4.0, doi:10.15489/smh8w3j8i962, Daten bearbeitet (umprojiziert)
+- GBIF.org (2026-11-08) GBIF Occurrence Search, https://www.gbif.org
+- Abgleich Baumarten: Thünen-Institut, Dominant Tree Species for Germany 2017/2018 (Blickensdörfer et al. 2024), CC BY 4.0
 - Rekonstruktion Schloss Karlsberg 1789 (Hypothese): Teilprojekt schloss-karlsberg, Katalog v2 (research/01-08)
 - Grundrisse teils nach Lageplan 2006, schloss-carlsberg.de (CC BY-SA 2.0 DE)
 - Sockeltiefen: DGM1 GeoBasis-DE/LVGL-SL (2026), dl-de/by-2-0
